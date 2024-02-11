@@ -295,13 +295,25 @@ BEST SCHOOL 98 BATTERY STREET
 ---
 #### 9
 ###### [Table of Contents](#table-of-contents)
-**t**
+**9. There are only 3 colors, 10 digits, and 7 notes; it's what we do with them that's important**
+- Write a function that prints the last digit of a number.
+    
+    - Prototype: `def print_last_digit(number):`
+    - Returns the value of the last digit
+    - You are not allowed to import any module
+- You don’t need to understand `__import__`
+    
+```
+guillaume@ubuntu:~/0x01$ ./9-main.py
+8044
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-higher_level_programming`
     - Directory: `0x01-python-if_else_loops_functions`
-    - File: [``](./)
+    - File: [`9-print_last_digit.py`](./9-print_last_digit.py)
+    - Example file: [`9-main.py`](./9-main.py)
 ---
 #### 10
 ###### [Table of Contents](#table-of-contents)
