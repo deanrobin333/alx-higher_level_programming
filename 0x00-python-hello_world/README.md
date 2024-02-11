@@ -7,7 +7,7 @@
 - [Tasks](#tasks)
 	- [0. Run Python file](#0)
 	- [1. Run inline](#1)
-	- [](#2)
+	- [2. Hello, print](#2)
 	- [](#3)
 	- [](#4)
 	- [](#5)
@@ -102,13 +102,21 @@ Best School: 98
 ---
 #### 2
 ###### [Table of Contents](#table-of-contents)
-**t**
+**2. Hello, print**
+- Write a Python script that prints exactly `"Programming is like building a multilingual puzzle`, followed by a new line.
+
+    - Use the function `print`
+
+```
+guillaume@ubuntu:~/py/0x00$ ./2-print.py
+"Programming is like building a multilingual puzzle
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-higher_level_programming`
     - Directory: `0x00-python-hello_world`
-    - File: [``](./)
+    - File: [`2-print.py`](./2-print.py)
 ---
 #### 3
 ###### [Table of Contents](#table-of-contents)
