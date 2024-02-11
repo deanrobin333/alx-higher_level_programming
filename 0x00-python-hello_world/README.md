@@ -10,7 +10,7 @@
 	- [2. Hello, print](#2)
 	- [3. Print integer](#3)
 	- [4. Print float](#4)
-	- [](#5)
+	- [5. Print string](#5)
 	- [](#6)
 	- [](#7)
 	- [](#8)
@@ -167,13 +167,29 @@ Float: 3.14
 ---
 #### 5
 ###### [Table of Contents](#table-of-contents)
-**t**
+**5. Print string**
+- Complete this [source code](https://github.com/alx-tools/0x00.py/blob/master/5-print_string.py "source code") in order to print 3 times a string stored in the variable `str`, followed by its first 9 characters.
+
+    - You can find the source code [here](https://github.com/alx-tools/0x00.py/blob/master/5-print_string.py "here")
+    - The output of the program should be:
+        - 3 times the value of `str`
+        - followed by a new line
+        - followed by the 9 first characters of `str`
+        - followed by a new line
+    - You are not allowed to use any loops or conditional statement
+    - Your program should be maximum 5 lines long
+
+    ```
+    guillaume@ubuntu:~/py/0x00$ ./5-print_string.py
+    Holberton SchoolHolberton SchoolHolberton School
+    Holberton
+    ```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-higher_level_programming`
     - Directory: `0x00-python-hello_world`
-    - File: [``](./)
+    - File: [`5-print_string.py`](./5-print_string.py)
 ---
 #### 6
 ###### [Table of Contents](#table-of-contents)
