@@ -6,7 +6,7 @@
 - [Project Description](#project-description)
 - [Tasks](#tasks)
 	- [0. Run Python file](#0)
-	- [](#1)
+	- [1. Run inline](#1)
 	- [](#2)
 	- [](#3)
 	- [](#4)
@@ -84,13 +84,21 @@ Best School
 ---
 #### 1
 ###### [Table of Contents](#table-of-contents)
-**t**
+**1. Run inline**
+- Write a Shell script that runs Python code.
+- The Python code will be saved in the environment variable `$PYCODE`
+
+```
+guillaume@ubuntu:~/py/0x00$ export PYCODE='print(f"Best School: {88+10}")'
+guillaume@ubuntu:~/py/0x00$ ./1-run_inline
+Best School: 98
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-higher_level_programming`
     - Directory: `0x00-python-hello_world`
-    - File: [``](./)
+    - File: [`1-run_inline`](./1-run_inline)
 ---
 #### 2
 ###### [Table of Contents](#table-of-contents)
