@@ -335,7 +335,7 @@ guillaume@ubuntu:~/0x01$ ./10-main.py
 - Repo
     - GitHub repository: `alx-higher_level_programming`
     - Directory: `0x01-python-if_else_loops_functions`
-    - File: [`10-add.py`](./ 10-add.py)
+    - File: [`10-add.py`](./10-add.py)
     - Example file: [`10-main.py`](./10-main.py)
 ---
 #### 11
