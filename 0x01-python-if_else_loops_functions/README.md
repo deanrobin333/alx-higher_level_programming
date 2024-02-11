@@ -5,23 +5,23 @@
 - [Author Details](#author-details)
 - [Project Description](#project-description)
 - [Tasks](#tasks)
-	- [](#0)
-	- [](#1)
-	- [](#2)
-	- [](#3)
-	- [](#4)
-	- [](#5)
-	- [](#6)
-	- [](#7)
-	- [](#8)
-	- [](#9)
-	- [](#10)
-	- [](#11)
-	- [](#12)
-	- [](#13)
-	- [](#14)
-	- [](#15)
-	- [](#16)
+	- [0. Positive anything is better than negative nothing](#0)
+	- [1. The last digit](#1)
+	- [2. I sometimes suffer from insomnia. And when I can't fall asleep, I play what I call the alphabet game](#2)
+	- [3. When I was having that alphabet soup, I never thought that it would pay off](#3)
+	- [4. Hexadecimal printing](#4)
+	- [5. 00...99](#5)
+	- [6. Inventing is a combination of brains and materials. The more brains you use, the less material you need](#6)
+	- [7. islower](#7)
+	- [8. To uppercase](#8)
+	- [9. There are only 3 colors, 10 digits, and 7 notes; it's what we do with them that's important](#9)
+	- [10. a + b](#10)
+	- [11. a ^ b](#11)
+	- [12. Fizz Buzz](#12)
+	- [13. Insert in sorted linked list](#13)
+	- [14. Smile in the mirror](#14)
+	- [15. Remove at position](#15)
+	- [16. ByteCode -> Python #2](#16)
 ---
 ## Author Details
 - *Dean Robin Otsyeno - deanrobin777@gmail.com*
@@ -54,13 +54,35 @@
 ## Tasks
 #### 0
 ###### [Table of Contents](#table-of-contents)
-**t**
+**0. Positive anything is better than negative nothing**
+- This program will assign a random signed number to the variable `number` each time it is executed. Complete the source code in order to print whether the number stored in the variable `number` is positive or negative.
+
+    - You can find the source code [here](https://github.com/alx-tools/0x01.py/blob/master/0-positive_or_negative_py "here")
+    - The variable `number` will store a different value every time you will run this program
+    - You don’t have to understand what `import`, `random. randint` do. Please do not touch this code
+    - The output of the program should be:
+        - The number, followed by
+            - if the number is greater than 0: `is positive`
+            - if the number is 0: `is zero`
+            - if the number is less than 0: `is negative`
+        - followed by a new line
+
+```
+guillaume@ubuntu:~/0x01$ ./0-positive_or_negative.py
+0 is zero
+guillaume@ubuntu:~/0x01$ ./0-positive_or_negative.py
+-3 is negative
+guillaume@ubuntu:~/0x01$ ./0-positive_or_negative.py
+-10 is negative
+guillaume@ubuntu:~/0x01$ ./0-positive_or_negative.py
+10 is positive
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-higher_level_programming`
     - Directory: `0x01-python-if_else_loops_functions`
-    - File: [``](./)
+    - File: [`0-positive_or_negative.py`](./0-positive_or_negative.py)
 ---
 #### 1
 ###### [Table of Contents](#table-of-contents)
