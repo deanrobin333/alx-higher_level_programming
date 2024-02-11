@@ -15,7 +15,7 @@
 	- [7. Copy - Cut - Paste](#7)
 	- [8. Create a new sentence](#8)
 	- [9. Easter Egg](#9)
-	- [](#10)
+	- [10. Linked list cycle](#10)
 	- [](#11)
 	- [](#12)
 	- [](#13)
@@ -304,13 +304,17 @@ Namespaces are one honking great idea -- let's do more of those!
 ---
 #### 10
 ###### [Table of Contents](#table-of-contents)
-**t**
+**10. Linked list cycle**
+
 
 <br></br>
 - Repo
     - GitHub repository: `alx-higher_level_programming`
     - Directory: `0x00-python-hello_world`
-    - File: [``](./)
+    - File: [`10-check_cycle.c`](./10-check_cycle.c)
+	- Header file: [`lists.h`](./lists.h)
+	- Supporting file: [`10-linked_lists.c`](./10-linked_lists.c)
+	- Example file: [`10-main.c`](./10-main.c)
 ---
 #### 11
 ###### [Table of Contents](#table-of-contents)
