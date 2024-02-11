@@ -5,7 +5,7 @@
 - [Author Details](#author-details)
 - [Project Description](#project-description)
 - [Tasks](#tasks)
-	- [](#0)
+	- [0. Run Python file](#0)
 	- [](#1)
 	- [](#2)
 	- [](#3)
@@ -61,13 +61,26 @@
 ## Tasks
 #### 0
 ###### [Table of Contents](#table-of-contents)
-**t**
+**0. Run Python file**
+- Write a Shell script that runs a Python script.
+- The Python file name will be saved in the environment variable `` `$PYFILE` ``
+
+```
+guillaume@ubuntu:~/py/0x00$ cat main.py
+#!/usr/bin/python3
+print("Best School")
+
+guillaume@ubuntu:~/py/0x00$ export PYFILE=main.py
+guillaume@ubuntu:~/py/0x00$ ./0-run
+Best School
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-higher_level_programming`
     - Directory: `0x00-python-hello_world`
-    - File: [``](./)
+    - File: [`0-run`](./0-run)
+	- Example file: [`0-main.py`](./0-main.py)
 ---
 #### 1
 ###### [Table of Contents](#table-of-contents)
