@@ -269,13 +269,29 @@ g is lower
 ---
 #### 8
 ###### [Table of Contents](#table-of-contents)
-**t**
+**8. To uppercase**
+- Write a function that prints a string in uppercase followed by a new line.
+    
+    - Prototype: `def uppercase(str):`
+    - You can only use no more than 2 `print` functions with string format
+    - You can only use one loop in your code
+    - You are not allowed to import any module
+    - You are not allowed to use `str.upper()` and `str.isupper()`
+    - [Tips: ord()](https://docs.python.org/3.4/library/functions.html?highlight=ord#ord "Tips: ord()")
+- You don’t need to understand `__import__`
+    
+```
+guillaume@ubuntu:~/0x01$ ./8-main.py
+BEST
+BEST SCHOOL 98 BATTERY STREET
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-higher_level_programming`
     - Directory: `0x01-python-if_else_loops_functions`
-    - File: [``](./)
+    - File: [`8-uppercase.py`](./8-uppercase.py)
+    - Example file: [`8-main.py`](./8-main.py)
 ---
 #### 9
 ###### [Table of Contents](#table-of-contents)
