@@ -13,7 +13,7 @@
 	- [5. Print string](#5)
 	- [6. Play with strings](#6)
 	- [7. Copy - Cut - Paste](#7)
-	- [](#8)
+	- [8. Create a new sentence](#8)
 	- [](#9)
 	- [](#10)
 	- [](#11)
@@ -243,13 +243,27 @@ Float: 3.14
 ---
 #### 8
 ###### [Table of Contents](#table-of-contents)
-**t**
+**8. Create a new sentence**
+- Complete this [source code](https://github.com/alx-tools/0x00.py/blob/master/8-concat_edges.py "source code") to print `object-oriented programming with Python`, followed by a new line.
+    
+    - You can find the source code [here](https://github.com/alx-tools/0x00.py/blob/master/8-concat_edges.py "here")
+    - You are not allowed to use any loops or conditional statements
+    - Your program should be exactly 5 lines long
+    - You are not allowed to create new variables
+    - You are not allowed to use string literals
+    
+    ```
+    guillaume@ubuntu:~/py/0x00$ ./8-concat_edges.py
+    object-oriented programming with Python
+    guillaume@ubuntu:~/py/0x00$ wc -l 8-concat_edges.py
+    5 8-concat_edges.py
+    ```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-higher_level_programming`
     - Directory: `0x00-python-hello_world`
-    - File: [``](./)
+    - File: [`8-concat_edges.py`](./8-concat_edges.py)
 ---
 #### 9
 ###### [Table of Contents](#table-of-contents)
