@@ -11,7 +11,7 @@
 	- [3. Print integer](#3)
 	- [4. Print float](#4)
 	- [5. Print string](#5)
-	- [](#6)
+	- [6. Play with strings](#6)
 	- [](#7)
 	- [](#8)
 	- [](#9)
@@ -193,13 +193,26 @@ Float: 3.14
 ---
 #### 6
 ###### [Table of Contents](#table-of-contents)
-**t**
+**6. Play with strings**
+- Complete this [source code](https://github.com/alx-tools/0x00.py/blob/master/6-concat.py "source code") to print `Welcome to Holberton School!`
+
+    - You can find the source code [here](https://github.com/alx-tools/0x00.py/blob/master/6-concat.py "here")
+    - You are not allowed to use any loops or conditional statements.
+    - You have to use the variables `str1` and `str2` in your new line of code
+    - Your program should be exactly 5 lines long
+
+    ```
+    guillaume@ubuntu:~/py/0x00$ ./6-concat.py
+    Welcome to Holberton School!
+    guillaume@ubuntu:~/py/0x00$ wc -l 6-concat.py
+    5 6-concat.py
+    ```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-higher_level_programming`
     - Directory: `0x00-python-hello_world`
-    - File: [``](./)
+    - File: [`6-concat.py`](./6-concat.py)
 ---
 #### 7
 ###### [Table of Contents](#table-of-contents)
