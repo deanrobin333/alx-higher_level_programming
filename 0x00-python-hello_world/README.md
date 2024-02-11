@@ -8,8 +8,8 @@
 	- [0. Run Python file](#0)
 	- [1. Run inline](#1)
 	- [2. Hello, print](#2)
-	- [](#3)
-	- [](#4)
+	- [3. Print integer](#3)
+	- [4. Print float](#4)
 	- [](#5)
 	- [](#6)
 	- [](#7)
@@ -120,23 +120,50 @@ guillaume@ubuntu:~/py/0x00$ ./2-print.py
 ---
 #### 3
 ###### [Table of Contents](#table-of-contents)
-**t**
+**3. Print integer**
+- Complete this [source code](https://github.com/alx-tools/0x00.py/blob/master/3-print_number.py "source code") in order to print the integer stored in the variable `number`, followed by `Battery street`, followed by a new line.
+
+    - You can find the source code [here](https://github.com/alx-tools/0x00.py/blob/master/3-print_number.py "here")
+    - The output of the script should be:
+        - the number, followed by `Battery street`,
+        - followed by a new line
+    - You are not allowed to cast the variable `number` into a string
+    - Your code must be 3 lines long
+    - You have to use f-strings [tips](https://realpython.com/python-f-strings/ "tips")
+
+```
+guillaume@ubuntu:~/py/0x00$ ./3-print_number.py
+98 Battery street
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-higher_level_programming`
     - Directory: `0x00-python-hello_world`
-    - File: [``](./)
+    - File: [`3-print_number.py`](./3-print_number.py)
 ---
 #### 4
 ###### [Table of Contents](#table-of-contents)
-**t**
+**4. Print float**
+- Complete the source code in order to print the float stored in the variable `number` with a precision of 2 digits.
+
+    - You can find the source code [here](https://github.com/alx-tools/0x00.py/blob/master/4-print_float.py "here")
+    - The output of the program should be:
+        - `Float:`, followed by the float with only 2 digits
+        - followed by a new line
+    - You are not allowed to cast `number` to string
+    - You have to use f-strings
+
+```
+guillaume@ubuntu:~/py/0x00$ ./4-print_float.py
+Float: 3.14
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-higher_level_programming`
     - Directory: `0x00-python-hello_world`
-    - File: [``](./)
+    - File: [`4-print_float.py`](./4-print_float.py)
 ---
 #### 5
 ###### [Table of Contents](#table-of-contents)
