@@ -305,7 +305,37 @@ Namespaces are one honking great idea -- let's do more of those!
 #### 10
 ###### [Table of Contents](#table-of-contents)
 **10. Linked list cycle**
+- **Technical interview preparation**:
+    
+    - You are not allowed to google anything
+    - Whiteboard first
+    - This task and all future technical interview prep tasks will include checks for the efficiency of your solution, i.e. is your solution’s runtime fast enough, does your solution require extra memory usage / mallocs, etc.
+    
+    Write a function in C that checks if a singly linked list has a cycle in it.
+    
+    - Prototype: `int check_cycle(listint_t *list);`
+    - Return: `0` if there is no cycle, `1` if there is a cycle
+    
+    Requirements:
+    
+    - Only these functions are allowed: `write`, `printf`, `putchar`, `puts`, `malloc`, `` `free` ``
+        
+```
+carrie@ubuntu:~/0x00$ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 10-main.c 10-check_cycle.c 10-linked_lists.c -o cycle
+carrie@ubuntu:~/0x00$$ ./cycle 
+1024
+402
+98
+4
+3
+2
+1
+0
+Linked list has no cycle
+Linked list has a cycle        
+```
 
+> Solving a problem is already a big win! but finding the best and optimal way to solve it, it’s way better! Think about the most optimal / fastest way to do it.
 
 <br></br>
 - Repo
