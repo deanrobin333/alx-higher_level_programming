@@ -6,4 +6,4 @@ def uppercase(str):
             u_str += (chr(ord(i) - (ord("a") - ord("A"))))
         else:
             u_str += i
-    print(u_str)
+    print("{}".format(u_str))
