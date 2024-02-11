@@ -118,13 +118,24 @@ guillaume@ubuntu:~/0x01$ ./0-positive_or_negative.py
 ---
 #### 2
 ###### [Table of Contents](#table-of-contents)
-**t**
+**2. I sometimes suffer from insomnia. And when I can't fall asleep, I play what I call the alphabet game**
+- Write a program that prints the ASCII alphabet, in lowercase, not followed by a new line.
+
+    - You can only use one `print` function with string format
+    - You can only use one loop in your code
+    - You are not allowed to store characters in a variable
+    - You are not allowed to import any module
+
+```
+guillaume@ubuntu:~/0x01$ ./2-print_alphabet.py
+abcdefghijklmnopqrstuvwxyzguillaume@ubuntu:~/0x01$
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-higher_level_programming`
     - Directory: `0x01-python-if_else_loops_functions`
-    - File: [``](./)
+    - File: [`2-print_alphabet.py`](./2-print_alphabet.py)
 ---
 #### 3
 ###### [Table of Contents](#table-of-contents)
