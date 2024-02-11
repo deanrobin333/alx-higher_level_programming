@@ -240,13 +240,32 @@ guillaume@ubuntu:~/0x01$ ./6-print_comb3.py
 ---
 #### 7
 ###### [Table of Contents](#table-of-contents)
-**t**
+**7. islower**
+- Write a function that checks for lowercase character.
+
+    - Prototype: `def islower(c):`
+    - Returns `True` if `c` is lowercase
+    - Returns `False` otherwise
+    - You are not allowed to import any module
+    - You are not allowed to use `str.upper()` and `str.isupper()`
+    - [Tips: ord()](https://docs.python.org/3.4/library/functions.html?highlight=ord#ord "Tips: ord()")
+- You don’t need to understand `__import__`
+
+```
+guillaume@ubuntu:~/0x01$ ./7-main.py
+a is lower
+H is upper
+A is upper
+3 is upper
+g is lower
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-higher_level_programming`
     - Directory: `0x01-python-if_else_loops_functions`
-    - File: [``](./)
+    - File: [`7-islower.py`](./7-islower.py)
+    - Example file: [`7-main.py`](./7-main.py)
 ---
 #### 8
 ###### [Table of Contents](#table-of-contents)
