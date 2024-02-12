@@ -387,13 +387,45 @@ guillaume@ubuntu:~/0x01$ ./12-main.py | cat -e
 ---
 #### 13
 ###### [Table of Contents](#table-of-contents)
-**t**
+**13. Insert in sorted linked list**
+- **Technical interview preparation**:    
+    - You are not allowed to google anything
+    - Whiteboard first    
+- Write a function in C that inserts a number into a sorted singly linked list.    
+    - Prototype: `listint_t *insert_node(listint_t **head, int number);`
+    - Return: the address of the new node, or `NULL` if it failed
+
+```
+carrie@ubuntu:0x01$ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 13-main.c linked_lists.c 13-insert_number.c -o insert
+carrie@ubuntu:0x01$ ./insert
+0
+1
+2
+3
+4
+98
+402
+1024
+-----------------
+0
+1
+2
+3
+4
+27
+98
+402
+1024
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-higher_level_programming`
     - Directory: `0x01-python-if_else_loops_functions`
-    - File: [``](./)
+    - File: [`13-insert_number.c`](./13-insert_number.c)
+    - Header File: [`lists.h`](./lists.h)
+    - Supporting File: [`linked_lists.c`](./linked_lists.c)
+    - Example file: [`13-main.c`](./13-main.c)
 ---
 #### 14
 ###### [Table of Contents](#table-of-contents)
