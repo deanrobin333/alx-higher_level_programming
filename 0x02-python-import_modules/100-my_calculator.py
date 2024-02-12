@@ -9,21 +9,16 @@ def main():
     if length != 4:
         print("Usage: {} <a> <operator> <b>".format(argv[0]))
         exit(1)
-    operator = '+-*/'
-    if operator.find(argv[2]) == -1:
+
+    operator = {'+': add, '-': sub, '*': mul, '/': div}
+    if argv[2] not in list(operator.keys()):
         print("Unknown operator. Available operators: +, -, * and /")
         exit(1)
 
     a = int(argv[1])
     b = int(argv[3])
-    if argv[2] == '+':
-        print("{} {} {} = {}".format(a, argv[2], b, add(a, b)))
-    elif argv[2] == '-':
-        print("{} {} {} = {}".format(a, argv[2], b, sub(a, b)))
-    elif argv[2] == '*':
-        print("{} {} {} = {}".format(a, argv[2], b, mul(a, b)))
-    elif argv[2] == '/':
-        print("{} {} {} = {}".format(a, argv[2], b, div(a, b)))
+
+    print("{} {} {} = {}".format(a, argv[2], b, operator[argv[2]](a, b)))
 
 
 if __name__ == "__main__":
