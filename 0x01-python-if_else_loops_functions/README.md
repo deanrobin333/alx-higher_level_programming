@@ -450,23 +450,67 @@ zYxWvUtSrQpOnMlKjIhGfEdCbAguillaume@ubuntu:~/0x01$
 ---
 #### 15
 ###### [Table of Contents](#table-of-contents)
-**t**
+**15. Remove at position**
+- Write a function that creates a copy of the string, removing the character at the position `n` (not the Python way, the “C array index”).
+
+    - Prototype: `def remove_char_at(str, n):`
+    - You are not allowed to import any module
+
+```
+guillaume@ubuntu:~/0x01$ ./101-main.py
+Bes School
+Chcago
+ is fun!
+School
+Python
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-higher_level_programming`
     - Directory: `0x01-python-if_else_loops_functions`
-    - File: [``](./)
+    - File: [`101-remove_char_at.py`](./101-remove_char_at.py)
+    - Example file: [`101-main.py`](./101-main.py)
 ---
 #### 16
 ###### [Table of Contents](#table-of-contents)
-**t**
+**16. ByteCode -> Python #2**
+- Write the Python function `def magic_calculation(a, b, c):` that does exactly the same as the following Python bytecode:
+
+    ```
+      3           0 LOAD_FAST                0 (a)
+                  3 LOAD_FAST                1 (b)
+                  6 COMPARE_OP               0 (<)
+                  9 POP_JUMP_IF_FALSE       16
+
+      4          12 LOAD_FAST                2 (c)
+                 15 RETURN_VALUE
+
+      5     >>   16 LOAD_FAST                2 (c)
+                 19 LOAD_FAST                1 (b)
+                 22 COMPARE_OP               4 (>)
+                 25 POP_JUMP_IF_FALSE       36
+
+      6          28 LOAD_FAST                0 (a)
+                 31 LOAD_FAST                1 (b)
+                 34 BINARY_ADD
+                 35 RETURN_VALUE
+
+      7     >>   36 LOAD_FAST                0 (a)
+                 39 LOAD_FAST                1 (b)
+                 42 BINARY_MULTIPLY
+                 43 LOAD_FAST                2 (c)
+                 46 BINARY_SUBTRACT
+                 47 RETURN_VALUE
+    ```
+
+    [tips - ByteCode](https://docs.python.org/3.4/library/dis.html "tips - ByteCode")
 
 <br></br>
 - Repo
     - GitHub repository: `alx-higher_level_programming`
     - Directory: `0x01-python-if_else_loops_functions`
-    - File: [``](./)
+    - File: [`102-magic_calculation.py`](./102-magic_calculation.py)
 ---
 
 
