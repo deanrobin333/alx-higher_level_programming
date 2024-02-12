@@ -6,7 +6,8 @@
 	- [0. 0x00. Python - Hello, World](#0)
 	- [1. 0x01. Python - if/else, loops, functions](#1)
 	- [2. 0x02. Python - import & modules](#2)
-	- [3. ](#3)
+	- [3. 0x03. Python - Data Structures: Lists, Tuples](#3)
+	- [4. ](#4)
 ---
 ## Author Details
 - *Dean Robin Otsyeno - deanrobin777@gmail.com*
@@ -60,7 +61,24 @@
 ---
 #### 3
 ###### [Table of Contents](#table-of-contents)
-### [3. ]()
+### [3. 0x03. Python - Data Structures: Lists, Tuples](0x03-python-data_structures)
+- Why Python programming is awesome
+- What are lists and how to use them
+- What are the differences and similarities between strings and lists
+- What are the most common methods of lists and how to use them
+- How to use lists as stacks and queues
+- What are list comprehensions and how to use them
+- What are tuples and how to use them
+- When to use tuples versus lists
+- What is a sequence
+- What is tuple packing
+- What is sequence unpacking
+- What is the `del` statement and how to use it
+
+---
+#### 4
+###### [Table of Contents](#table-of-contents)
+### [4. ]()
 
 ---
 
