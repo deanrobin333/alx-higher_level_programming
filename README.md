@@ -5,7 +5,8 @@
 - [Projects](#Projects)
 	- [0. 0x00. Python - Hello, World](#0)
 	- [1. 0x01. Python - if/else, loops, functions](#1)
-	- [2. ](#2)
+	- [2. 0x02. Python - import & modules](#2)
+	- [3. ](#3)
 ---
 ## Author Details
 - *Dean Robin Otsyeno - deanrobin777@gmail.com*
@@ -48,7 +49,18 @@
 ---
 #### 2
 ###### [Table of Contents](#table-of-contents)
-### [2. ]()
+### [2. 0x02. Python - import & modules](./0x02-python-import_modules)
+- Why Python programming is awesome
+- How to import functions from another file
+- How to use imported functions
+- How to create a module
+- How to use the built-in function `dir()`
+- How to prevent code in your script from being executed when imported
+- How to use command line arguments with your Python programs
+---
+#### 3
+###### [Table of Contents](#table-of-contents)
+### [3. ]()
 
 ---
 
