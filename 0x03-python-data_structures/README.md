@@ -76,18 +76,30 @@ guillaume@ubuntu:~/0x03$ ./0-main.py
     - GitHub repository: `alx-higher_level_programming`
     - Directory: `0x03-python-data_structures`
     - File: [`0-print_list_integer.py`](./0-print_list_integer.py)
-  - Example file: [`0-main.py`](./0-main.py)
+    - Example file: [`0-main.py`](./0-main.py)
 ---
 #### 1
 ###### [Table of Contents](#table-of-contents)
 **1. Secure access to an element in a list**
+- Write a function that retrieves an element from a list like in C.
+
+    - Prototype: `def element_at(my_list, idx):`
+    - If `idx` is negative, the function should return `None`
+    - If `idx` is out of range (> of number of element in `my_list`), the function should return `None`
+    - You are not allowed to import any module
+    - You are not allowed to use `try/except`
+
+```
+guillaume@ubuntu:~/0x03$ ./1-main.py
+Element at index 3 is 4
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-higher_level_programming`
     - Directory: `0x03-python-data_structures`
-    - File: [``](./)
-  - Example file: [`-main.py`](./-main.py)
+    - File: [`1-element_at.py`](./1-element_at.py)
+    - Example file: [`1-main.py`](./1-main.py)
 ---
 #### 2
 ###### [Table of Contents](#table-of-contents)
@@ -98,7 +110,7 @@ guillaume@ubuntu:~/0x03$ ./0-main.py
     - GitHub repository: `alx-higher_level_programming`
     - Directory: `0x03-python-data_structures`
     - File: [``](./)
-  - Example file: [`-main.py`](./-main.py)
+    - Example file: [`-main.py`](./-main.py)
 ---
 #### 3
 ###### [Table of Contents](#table-of-contents)
@@ -109,7 +121,7 @@ guillaume@ubuntu:~/0x03$ ./0-main.py
     - GitHub repository: `alx-higher_level_programming`
     - Directory: `0x03-python-data_structures`
     - File: [``](./)
-  - Example file: [`-main.py`](./-main.py)
+    - Example file: [`-main.py`](./-main.py)
 ---
 #### 4
 ###### [Table of Contents](#table-of-contents)
@@ -120,7 +132,7 @@ guillaume@ubuntu:~/0x03$ ./0-main.py
     - GitHub repository: `alx-higher_level_programming`
     - Directory: `0x03-python-data_structures`
     - File: [``](./)
-  - Example file: [`-main.py`](./-main.py)
+    - Example file: [`-main.py`](./-main.py)
 ---
 #### 5
 ###### [Table of Contents](#table-of-contents)
@@ -131,7 +143,7 @@ guillaume@ubuntu:~/0x03$ ./0-main.py
     - GitHub repository: `alx-higher_level_programming`
     - Directory: `0x03-python-data_structures`
     - File: [``](./)
-  - Example file: [`-main.py`](./-main.py)
+    - Example file: [`-main.py`](./-main.py)
 ---
 #### 6
 ###### [Table of Contents](#table-of-contents)
@@ -142,7 +154,7 @@ guillaume@ubuntu:~/0x03$ ./0-main.py
     - GitHub repository: `alx-higher_level_programming`
     - Directory: `0x03-python-data_structures`
     - File: [``](./)
-  - Example file: [`-main.py`](./-main.py)
+    - Example file: [`-main.py`](./-main.py)
 ---
 #### 7
 ###### [Table of Contents](#table-of-contents)
@@ -153,7 +165,7 @@ guillaume@ubuntu:~/0x03$ ./0-main.py
     - GitHub repository: `alx-higher_level_programming`
     - Directory: `0x03-python-data_structures`
     - File: [``](./)
-  - Example file: [`-main.py`](./-main.py)
+    - Example file: [`-main.py`](./-main.py)
 ---
 #### 8
 ###### [Table of Contents](#table-of-contents)
@@ -164,7 +176,7 @@ guillaume@ubuntu:~/0x03$ ./0-main.py
     - GitHub repository: `alx-higher_level_programming`
     - Directory: `0x03-python-data_structures`
     - File: [``](./)
-  - Example file: [`-main.py`](./-main.py)
+    - Example file: [`-main.py`](./-main.py)
 ---
 #### 9
 ###### [Table of Contents](#table-of-contents)
@@ -175,7 +187,7 @@ guillaume@ubuntu:~/0x03$ ./0-main.py
     - GitHub repository: `alx-higher_level_programming`
     - Directory: `0x03-python-data_structures`
     - File: [``](./)
-  - Example file: [`-main.py`](./-main.py)
+    - Example file: [`-main.py`](./-main.py)
 ---
 #### 10
 ###### [Table of Contents](#table-of-contents)
@@ -186,7 +198,7 @@ guillaume@ubuntu:~/0x03$ ./0-main.py
     - GitHub repository: `alx-higher_level_programming`
     - Directory: `0x03-python-data_structures`
     - File: [``](./)
-  - Example file: [`-main.py`](./-main.py)
+    - Example file: [`-main.py`](./-main.py)
 ---
 #### 11
 ###### [Table of Contents](#table-of-contents)
@@ -197,7 +209,7 @@ guillaume@ubuntu:~/0x03$ ./0-main.py
     - GitHub repository: `alx-higher_level_programming`
     - Directory: `0x03-python-data_structures`
     - File: [``](./)
-  - Example file: [`-main.py`](./-main.py)
+    - Example file: [`-main.py`](./-main.py)
 ---
 #### 12
 ###### [Table of Contents](#table-of-contents)
@@ -208,7 +220,7 @@ guillaume@ubuntu:~/0x03$ ./0-main.py
     - GitHub repository: `alx-higher_level_programming`
     - Directory: `0x03-python-data_structures`
     - File: [``](./)
-  - Example file: [`-main.py`](./-main.py)
+    - Example file: [`-main.py`](./-main.py)
 ---
 #### 13
 ###### [Table of Contents](#table-of-contents)
@@ -219,7 +231,7 @@ guillaume@ubuntu:~/0x03$ ./0-main.py
     - GitHub repository: `alx-higher_level_programming`
     - Directory: `0x03-python-data_structures`
     - File: [``](./)
-  - Example file: [`-main.py`](./-main.py)
+    - Example file: [`-main.py`](./-main.py)
 ---
 #### 14
 ###### [Table of Contents](#table-of-contents)
@@ -230,7 +242,7 @@ guillaume@ubuntu:~/0x03$ ./0-main.py
     - GitHub repository: `alx-higher_level_programming`
     - Directory: `0x03-python-data_structures`
     - File: [``](./)
-  - Example file: [`-main.py`](./-main.py)
+    - Example file: [`-main.py`](./-main.py)
 ---
 
 
