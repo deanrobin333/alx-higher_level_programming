@@ -104,13 +104,26 @@ Element at index 3 is 4
 #### 2
 ###### [Table of Contents](#table-of-contents)
 **2. Replace element**
+- Write a function that replaces an element of a list at a specific position (like in C).
+
+    - Prototype: `def replace_in_list(my_list, idx, element):`
+    - If `idx` is negative, the function should not modify anything, and returns the original list
+    - If `idx` is out of range (> of number of element in `my_list`), the function should not modify anything, and returns the original list
+    - You are not allowed to import any module
+    - You are not allowed to use `try/except`
+
+```
+guillaume@ubuntu:~/0x03$ ./2-main.py
+[1, 2, 3, 9, 5]
+[1, 2, 3, 9, 5]
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-higher_level_programming`
     - Directory: `0x03-python-data_structures`
-    - File: [``](./)
-    - Example file: [`-main.py`](./-main.py)
+    - File: [`2-replace_in_list.py`](./2-replace_in_list.py)
+    - Example file: [`2-main.py`](./2-main.py)
 ---
 #### 3
 ###### [Table of Contents](#table-of-contents)
