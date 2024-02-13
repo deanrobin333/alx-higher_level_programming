@@ -260,13 +260,23 @@ guillaume@ubuntu:~/0x03$ ./7-main.py
 #### 8
 ###### [Table of Contents](#table-of-contents)
 **8. More returns!**
+- Write a function that returns a tuple with the length of a string and its first character.
+
+    - Prototype: `def multiple_returns(sentence):`
+    - If the sentence is empty, the first character should be equal to `None`
+    - You are not allowed to import any module
+
+```
+guillaume@ubuntu:~/0x03$ ./8-main.py
+Length: 22 - First character: A
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-higher_level_programming`
     - Directory: `0x03-python-data_structures`
-    - File: [``](./)
-    - Example file: [`-main.py`](./-main.py)
+    - File: [`8-multiple_returns.py`](./8-multiple_returns.py)
+    - Example file: [`8-main.py`](./8-main.py)
 ---
 #### 9
 ###### [Table of Contents](#table-of-contents)
