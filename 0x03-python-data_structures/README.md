@@ -332,13 +332,25 @@ guillaume@ubuntu:~/0x03$ ./10-main.py
 #### 11
 ###### [Table of Contents](#table-of-contents)
 **11. Delete at**
+- Write a function that deletes the item at a specific position in a list.
+
+    - Prototype: `def delete_at(my_list=[], idx=0):`
+    - If `idx` is negative or out of range, nothing change (returns the same list)
+    - You are not allowed to use `pop()`
+    - You are not allowed to import any module
+
+```
+guillaume@ubuntu:~/0x03$ ./11-main.py
+[1, 2, 3, 5]
+[1, 2, 3, 5]
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-higher_level_programming`
     - Directory: `0x03-python-data_structures`
-    - File: [``](./)
-    - Example file: [`-main.py`](./-main.py)
+    - File: [`11-delete_at.py`](./11-delete_at.py)
+    - Example file: [`10-main.py`](./10-main.py)
 ---
 #### 12
 ###### [Table of Contents](#table-of-contents)
