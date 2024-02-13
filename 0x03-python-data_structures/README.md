@@ -281,13 +281,25 @@ Length: 22 - First character: A
 #### 9
 ###### [Table of Contents](#table-of-contents)
 **9. Find the max**
+- Write a function that finds the biggest integer of a list.
+
+    - Prototype: `def max_integer(my_list=[]):`
+    - If the list is empty, return `None`
+    - You can assume that the list only contains integers
+    - You are not allowed to import any module
+    - You are not allowed to use the builtin `max()`
+
+```
+guillaume@ubuntu:~/0x03$ ./9-main.py
+Max: 90
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-higher_level_programming`
     - Directory: `0x03-python-data_structures`
-    - File: [``](./)
-    - Example file: [`-main.py`](./-main.py)
+    - File: [`9-max_integer.py`](./9-max_integer.py)
+    - Example file: [`9-main.py`](./9-main.py)
 ---
 #### 10
 ###### [Table of Contents](#table-of-contents)
