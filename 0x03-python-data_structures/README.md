@@ -232,13 +232,30 @@ $
 #### 7
 ###### [Table of Contents](#table-of-contents)
 **7. Tuples addition**
+- Write a function that adds 2 tuples.
+
+    - Prototype: `def add_tuple(tuple_a=(), tuple_b=()):`
+    - Returns a tuple with 2 integers:
+        - The first element should be the addition of the first element of each argument
+        - The second element should be the addition of the second element of each argument
+    - You are not allowed to import any module
+    - You can assume that the two tuples will only contain integers
+    - If a tuple is smaller than 2, use the value `0` for each missing integer
+    - If a tuple is bigger than 2, use only the first 2 integers
+
+```
+guillaume@ubuntu:~/0x03$ ./7-main.py
+(89, 100)
+(2, 89)
+(1, 89)
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-higher_level_programming`
     - Directory: `0x03-python-data_structures`
-    - File: [``](./)
-    - Example file: [`-main.py`](./-main.py)
+    - File: [`7-add_tuple.py`](./7-add_tuple.py)
+    - Example file: [`7-main.py`](./7-main.py)
 ---
 #### 8
 ###### [Table of Contents](#table-of-contents)
