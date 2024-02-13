@@ -156,13 +156,26 @@ guillaume@ubuntu:~/0x03$ ./3-main.py
 #### 4
 ###### [Table of Contents](#table-of-contents)
 **4. Replace in a copy**
+- Write a function that replaces an element in a list at a specific position without modifying the original list (like in C).
+
+    - Prototype: `def new_in_list(my_list, idx, element):`
+    - If `idx` is negative, the function should return a copy of the original `list`
+    - If `idx` is out of range (> of number of element in `my_list`), the function should return a copy of the original `list`
+    - You are not allowed to import any module
+    - You are not allowed to use `try/except`
+
+```
+guillaume@ubuntu:~/0x03$ ./4-main.py
+[1, 2, 3, 9, 5]
+[1, 2, 3, 4, 5]
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-higher_level_programming`
     - Directory: `0x03-python-data_structures`
-    - File: [``](./)
-    - Example file: [`-main.py`](./-main.py)
+    - File: [`4-new_in_list.py`](./4-new_in_list.py)
+    - Example file: [`4-main.py`](./4-main.py)
 ---
 #### 5
 ###### [Table of Contents](#table-of-contents)
