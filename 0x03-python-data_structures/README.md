@@ -128,13 +128,30 @@ guillaume@ubuntu:~/0x03$ ./2-main.py
 #### 3
 ###### [Table of Contents](#table-of-contents)
 **3. Print a list of integers... in reverse!**
+- Write a function that prints all integers of a list, in reverse order.
+
+    - Prototype: `def print_reversed_list_integer(my_list=[]):`
+    - Format: one integer per line. See example
+    - You are not allowed to import any module
+    - You can assume that the list only contains integers
+    - You are not allowed to cast integers into strings
+    - You have to use `str.format()` to print integers
+
+```
+guillaume@ubuntu:~/0x03$ ./3-main.py
+5
+4
+3
+2
+1
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-higher_level_programming`
     - Directory: `0x03-python-data_structures`
-    - File: [``](./)
-    - Example file: [`-main.py`](./-main.py)
+    - File: [`3-print_reversed_list_integer.py`](./3-print_reversed_list_integer.py)
+    - Example file: [`3-main.py`](./3-main.py)
 ---
 #### 4
 ###### [Table of Contents](#table-of-contents)
