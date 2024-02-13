@@ -409,7 +409,7 @@ carrie@ubuntu:0x03$ ./palindrome
     - File: [`13-is_palindrome.c`](./13-is_palindrome.c)
     - Header file: [`lists.h`](./lists.h)
     - Supporting File: [`linked_lists.c`](./linked_lists.c)
-    - Example file: [`-main.py`](./-main.py)
+    - Example file: [`13-main.c`](./13-main.c)
 ---
 #### 14
 ###### [Table of Contents](#table-of-contents)
