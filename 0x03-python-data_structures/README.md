@@ -180,24 +180,54 @@ guillaume@ubuntu:~/0x03$ ./4-main.py
 #### 5
 ###### [Table of Contents](#table-of-contents)
 **5. Can you C me now?**
+- Write a function that removes all characters `c` and `C` from a string.
+
+    - Prototype: `def no_c(my_string):`
+    - The function should return the new string
+    - You are not allowed to import any module
+    - You are not allowed to use `str.replace()`
+
+```
+guillaume@ubuntu:~/0x03$ ./5-main.py
+Best Shool
+hiago
+ is fun!
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-higher_level_programming`
     - Directory: `0x03-python-data_structures`
-    - File: [``](./)
-    - Example file: [`-main.py`](./-main.py)
+    - File: [`5-no_c.py`](./5-no_c.py)
+    - Example file: [`5-main.py`](./5-main.py)
 ---
 #### 6
 ###### [Table of Contents](#table-of-contents)
 **6. Lists of lists = Matrix**
+- Write a function that prints a matrix of integers.
+
+    - Prototype: `def print_matrix_integer(matrix=[[]]):`
+    - Format: see example
+    - You are not allowed to import any module
+    - You can assume that the list only contains integers
+    - You are not allowed to cast integers into strings
+    - You have to use `str.format()` to print integers
+
+```
+guillaume@ubuntu:~/0x03$ ./6-main.py | cat -e
+1 2 3$
+4 5 6$
+7 8 9$
+--$
+$
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-higher_level_programming`
     - Directory: `0x03-python-data_structures`
-    - File: [``](./)
-    - Example file: [`-main.py`](./-main.py)
+    - File: [`6-print_matrix_integer.py`](./6-print_matrix_integer.py)
+    - Example file: [`6-main.py`](./6-main.py)
 ---
 #### 7
 ###### [Table of Contents](#table-of-contents)
