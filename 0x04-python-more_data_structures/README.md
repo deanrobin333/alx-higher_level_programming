@@ -171,13 +171,29 @@ Number of keys: 3
 #### 6
 ###### [Table of Contents](#table-of-contents)
 **6. Print sorted dictionary**
+- Write a function that prints a dictionary by ordered keys.
+
+    - Prototype: `def print_sorted_dictionary(a_dictionary):`
+    - You can assume that all keys are strings
+    - Keys should be sorted by alphabetic order
+    - Only sort keys of the first level (don’t sort keys of a dictionary inside the main dictionary)
+    - Dictionary values can have any type
+    - You are not allowed to import any module
+
+```
+guillaume@ubuntu:~/0x04$ ./6-main.py
+Number: 89
+ids: [1, 2, 3]
+language: C
+track: Low level
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-higher_level_programming`
     - Directory: `0x04-python-more_data_structures`
-    - File: [``](./)
-	- Example file: [`-main.py`](./-main.py)
+    - File: [`6-print_sorted_dictionary.py`](./6-print_sorted_dictionary.py)
+	- Example file: [`6-main.py`](./6-main.py)
 ---
 #### 7
 ###### [Table of Contents](#table-of-contents)
