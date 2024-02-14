@@ -151,13 +151,22 @@ guillaume@ubuntu:~/0x04$ ./4-main.py
 #### 5
 ###### [Table of Contents](#table-of-contents)
 **5. Number of keys**
+- Write a function that returns the number of keys in a dictionary.
+
+    - Prototype: `def number_keys(a_dictionary):`
+    - You are not allowed to import any module
+
+```
+guillaume@ubuntu:~/0x04$ ./5-main.py
+Number of keys: 3
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-higher_level_programming`
     - Directory: `0x04-python-more_data_structures`
-    - File: [``](./)
-	- Example file: [`-main.py`](./-main.py)
+    - File: [`5-number_keys.py`](./5-number_keys.py)
+	- Example file: [`5-main.py`](./5-main.py)
 ---
 #### 6
 ###### [Table of Contents](#table-of-contents)
