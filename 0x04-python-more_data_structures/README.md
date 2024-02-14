@@ -131,13 +131,22 @@ guillaume@ubuntu:~/0x04$ ./3-main.py
 #### 4
 ###### [Table of Contents](#table-of-contents)
 **4. Only differents**
+- Write a function that returns a set of all elements present in only one set.
+
+    - Prototype: `def only_diff_elements(set_1, set_2):`
+    - You are not allowed to import any module
+
+```
+guillaume@ubuntu:~/0x04$ ./4-main.py
+['Bash', 'Javascript', 'Perl', 'Python', 'Ruby']
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-higher_level_programming`
     - Directory: `0x04-python-more_data_structures`
-    - File: [``](./)
-	- Example file: [`-main.py`](./-main.py)
+    - File: [`4-only_diff_elements.py`](./4-only_diff_elements.py)
+	- Example file: [`4-main.py`](./4-main.py)
 ---
 #### 5
 ###### [Table of Contents](#table-of-contents)
