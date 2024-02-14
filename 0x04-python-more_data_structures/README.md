@@ -198,13 +198,43 @@ track: Low level
 #### 7
 ###### [Table of Contents](#table-of-contents)
 **7. Update dictionary**
+- Write a function that replaces or adds key/value in a dictionary.
+
+    - Prototype: `def update_dictionary(a_dictionary, key, value):`
+    - `key` argument will be always a string
+    - `value` argument will be any type
+    - If a key exists in the dictionary, the value will be replaced
+    - If a key doesn’t exist in the dictionary, it will be created
+    - You are not allowed to import any module
+
+```
+guillaume@ubuntu:~/0x04$ ./7-main.py
+language: Python
+number: 89
+track: Low level
+--
+language: Python
+number: 89
+track: Low level
+--
+--
+city: San Francisco
+language: Python
+number: 89
+track: Low level
+--
+city: San Francisco
+language: Python
+number: 89
+track: Low level
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-higher_level_programming`
     - Directory: `0x04-python-more_data_structures`
-    - File: [``](./)
-	- Example file: [`-main.py`](./-main.py)
+    - File: [`7-update_dictionary.py`](./7-update_dictionary.py)
+	- Example file: [`7-main.py`](./7-main.py)
 ---
 #### 8
 ###### [Table of Contents](#table-of-contents)
