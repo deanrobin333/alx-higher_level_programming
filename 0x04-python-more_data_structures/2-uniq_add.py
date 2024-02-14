@@ -1,7 +1,4 @@
 #!/usr/bin/python3
-from functools import reduce
-
-
 def uniq_add(my_list=[]):
     sorted_list = sorted(my_list)
     diff_value = sorted_list[0]
