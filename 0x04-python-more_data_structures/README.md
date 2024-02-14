@@ -239,13 +239,39 @@ track: Low level
 #### 8
 ###### [Table of Contents](#table-of-contents)
 **8. Simple delete by key**
+- Write a function that deletes a key in a dictionary.
+
+    - Prototype: `def simple_delete(a_dictionary, key=""):`
+    - `key` argument will be always a string
+    - If a key doesn’t exist, the dictionary won’t change
+    - You are not allowed to import any module
+
+```
+guillaume@ubuntu:~/0x04$ ./8-main.py
+Number: 89
+ids: [1, 2, 3]
+language: C
+--
+Number: 89
+ids: [1, 2, 3]
+language: C
+--
+--
+Number: 89
+ids: [1, 2, 3]
+language: C
+--
+Number: 89
+ids: [1, 2, 3]
+language: C
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-higher_level_programming`
     - Directory: `0x04-python-more_data_structures`
-    - File: [``](./)
-	- Example file: [`-main.py`](./-main.py)
+    - File: [`8-simple_delete.py`](./8-simple_delete.py)
+	- Example file: [`8-main.py`](./8-main.py)
 ---
 #### 9
 ###### [Table of Contents](#table-of-contents)
