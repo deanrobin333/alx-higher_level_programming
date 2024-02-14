@@ -67,13 +67,26 @@ guillaume@ubuntu:~/0x04$ ./0-main.py
 #### 1
 ###### [Table of Contents](#table-of-contents)
 **1. Search and replace**
+- Write a function that replaces all occurrences of an element by another in a new list.
+
+    - Prototype: `def search_replace(my_list, search, replace):`
+    - `my_list` is the initial list
+    - `search` is the element to replace in the list
+    - `replace` is the new element
+    - You are not allowed to import any module
+
+```
+guillaume@ubuntu:~/0x04$ ./1-main.py
+[1, 89, 3, 4, 5, 4, 89, 1, 1, 4, 89]
+[1, 2, 3, 4, 5, 4, 2, 1, 1, 4, 89]
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-higher_level_programming`
     - Directory: `0x04-python-more_data_structures`
-    - File: [``](./)
-	- Example file: [`-main.py`](./-main.py)
+    - File: [`1-search_replace.py`](./1-search_replace.py)
+	- Example file: [`1-main.py`](./1-main.py)
 ---
 #### 2
 ###### [Table of Contents](#table-of-contents)
