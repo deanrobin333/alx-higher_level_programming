@@ -91,13 +91,22 @@ guillaume@ubuntu:~/0x04$ ./1-main.py
 #### 2
 ###### [Table of Contents](#table-of-contents)
 **2. Unique addition**
+- Write a function that adds all unique integers in a list (only once for each integer).
+
+    - Prototype: `def uniq_add(my_list=[]):`
+    - You are not allowed to import any module
+
+```
+guillaume@ubuntu:~/0x04$ ./2-main.py
+Result: 15
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-higher_level_programming`
     - Directory: `0x04-python-more_data_structures`
-    - File: [``](./)
-	- Example file: [`-main.py`](./-main.py)
+    - File: [`2-uniq_add.py`](./2-uniq_add.py)
+	- Example file: [`2-main.py`](./2-main.py)
 ---
 #### 3
 ###### [Table of Contents](#table-of-contents)
