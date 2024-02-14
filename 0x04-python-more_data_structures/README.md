@@ -111,13 +111,22 @@ Result: 15
 #### 3
 ###### [Table of Contents](#table-of-contents)
 **3. Present in both**
+- Write a function that returns a set of common elements in two sets.
+
+    - Prototype: `def common_elements(set_1, set_2):`
+    - You are not allowed to import any module
+
+```
+guillaume@ubuntu:~/0x04$ ./3-main.py
+['C']
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-higher_level_programming`
     - Directory: `0x04-python-more_data_structures`
-    - File: [``](./)
-	- Example file: [`-main.py`](./-main.py)
+    - File: [`3-common_elements.py`](./3-common_elements.py)
+	- Example file: [`3-main.py`](./3-main.py)
 ---
 #### 4
 ###### [Table of Contents](#table-of-contents)
