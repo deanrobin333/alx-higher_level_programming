@@ -1,15 +1,17 @@
 #!/usr/bin/python3
+from functools import reduce
+
+
 def uniq_add(my_list=[]):
     sorted_list = sorted(my_list)
     diff_value = sorted_list[0]
-    result = sorted_list[0]
-    print(sorted_list)
+    result = 0
 
-    for i in range(1, len(sorted_list) - 1):
-        if diff_value != sorted_list[i - 1]:
-            result += diff_value
-        diff_value = sorted_list[i + 1]
+    for i in range(1, len(sorted_list)):
+        result += diff_value if diff_value != sorted_list[i] else 0
+        diff_value = sorted_list[i]
 
-    if diff_value != sorted_list[len(sorted_list) - 2]:
+    if sorted_list[-2] != diff_value:
         result += diff_value
+
     return result
