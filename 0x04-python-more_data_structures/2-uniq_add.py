@@ -2,7 +2,7 @@
 def uniq_add(my_list=[]):
     '''
         Using `set` would have made life easier
-        sorted_list = set(my_list) - creates a unique list
+        sorted_list = set(my_list) - creates a unique set
     '''
     sorted_list = sorted(my_list)
     if len(sorted_list) == 0:
