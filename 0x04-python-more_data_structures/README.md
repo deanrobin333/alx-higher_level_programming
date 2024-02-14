@@ -40,13 +40,29 @@
 #### 0
 ###### [Table of Contents](#table-of-contents)
 **0. Squared simple**
+- Write a function that computes the square value of all integers of a matrix.
+
+    - Prototype: `def square_matrix_simple(matrix=[]):`
+    - `matrix` is a 2 dimensional array
+    - Returns a new matrix:
+        - Same size as `matrix`
+        - Each value should be the square of the value of the input
+    - Initial matrix should not be modified
+    - You are not allowed to import any module
+    - You are allowed to use regular loops, `map`, etc.
+
+```
+guillaume@ubuntu:~/0x04$ ./0-main.py
+[[1, 4, 9], [16, 25, 36], [49, 64, 81]]
+[[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-higher_level_programming`
     - Directory: `0x04-python-more_data_structures`
-    - File: [``](./)
-	- Example file: [`-main.py`](./-main.py)
+    - File: [`0-square_matrix_simple.py`](./0-square_matrix_simple.py)
+	- Example file: [`0-main.py`](./0-main.py)
 ---
 #### 1
 ###### [Table of Contents](#table-of-contents)
