@@ -6,17 +6,17 @@ def roman_to_int(roman_string):
     sym = {"I": 1, "V": 5, "X": 10, "L": 50, "C": 100, "D": 500, "M": 1000}
     results = 0
     sum_r = 0
-    sum_r_old = sum_r
+    i = 0
 
-    for i in range(len(roman_string) - 1):
-
+    while i < len(roman_string) - 1:
         if sym[roman_string[i]] < sym[roman_string[i + 1]]:
-            sum_r_old = sum_r
             sum_r = sym[roman_string[i + 1]] - sym[roman_string[i]]
             results += sum_r
+            i += 1
         else:
-            if sum_r_old == sum_r:
-                results += sym[roman_string[i]]
+            results += sym[roman_string[i]]
+        i += 1
+
     if len(roman_string) % 2 != 0:
         if sym[roman_string[len(roman_string) - 2]] >= sym[roman_string[-1]]:
             if len(roman_string) == 1:
