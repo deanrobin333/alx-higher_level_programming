@@ -375,6 +375,15 @@ VII = 7
 IX = 9
 LXXXVII = 87
 DCCVII = 707
+
+I = 1
+III = 3
+XXI = 21
+CXXIV = 124
+89 = 0
+None = 0
+XCIX = 99
+LXXXIX = 89
 ```
 
 <br></br>

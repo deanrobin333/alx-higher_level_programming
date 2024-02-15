@@ -17,3 +17,31 @@ print("{} = {}".format(roman_number, roman_to_int(roman_number)))
 
 roman_number = "DCCVII"
 print("{} = {}".format(roman_number, roman_to_int(roman_number)))
+
+print()
+# others
+roman_number = "I"
+print("{} = {}".format(roman_number, roman_to_int(roman_number)))
+if type(roman_to_int("I")) is not int:
+    print("Doesn't return an integer")
+
+roman_number = "III"
+print("{} = {}".format(roman_number, roman_to_int(roman_number)))
+
+roman_number = "XXI"
+print("{} = {}".format(roman_number, roman_to_int(roman_number)))
+
+roman_number = "CXXIV"
+print("{} = {}".format(roman_number, roman_to_int(roman_number)))
+
+roman_number = 89
+print("{} = {}".format(roman_number, roman_to_int(roman_number)))
+
+roman_number = None
+print("{} = {}".format(roman_number, roman_to_int(roman_number)))
+
+roman_number = "XCIX"
+print("{} = {}".format(roman_number, roman_to_int(roman_number)))
+
+roman_number = "LXXXIX"
+print("{} = {}".format(roman_number, roman_to_int(roman_number)))
