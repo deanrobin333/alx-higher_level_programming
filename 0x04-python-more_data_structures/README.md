@@ -359,13 +359,30 @@ guillaume@ubuntu:~/0x04$ ./11-main.py
 #### 12
 ###### [Table of Contents](#table-of-contents)
 **12. Roman to Integer**
+- **Technical interview preparation**:
+    - You are not allowed to google anything
+    - Whiteboard first
+
+- Create a function `def roman_to_int(roman_string):` that converts a [Roman numeral](https://en.wikipedia.org/wiki/Roman_numerals "Roman numeral") to an integer.
+    - You can assume the number will be between 1 to 3999.
+    - `def roman_to_int(roman_string)` must return an integer
+    - If the `roman_string` is not a string or `None`, return 0
+
+```
+guillaume@ubuntu:~/0x04$ ./12-main.py
+X = 10
+VII = 7
+IX = 9
+LXXXVII = 87
+DCCVII = 707
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-higher_level_programming`
     - Directory: `0x04-python-more_data_structures`
-    - File: [``](./)
-	- Example file: [`-main.py`](./-main.py)
+    - File: [`12-roman_to_int.py`](./12-roman_to_int.py)
+	- Example file: [`12-main.py`](./12-main.py)
 ---
 #### 13
 ###### [Table of Contents](#table-of-contents)
