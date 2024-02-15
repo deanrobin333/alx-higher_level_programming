@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 def complex_delete(a_dictionary, value):
     if not a_dictionary:
-        return
+        return a_dictionary
     list_keys = []
     new_dict = dict(a_dictionary)
     for key, val in a_dictionary.items():
