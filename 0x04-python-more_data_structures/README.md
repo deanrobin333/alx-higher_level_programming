@@ -332,13 +332,29 @@ Best score: None
 #### 11
 ###### [Table of Contents](#table-of-contents)
 **11. Multiply by using map**
+- Write a function that returns a list with all values multiplied by a number without using any loops.
+
+    - Prototype: `def multiply_list_map(my_list=[], number=0):`
+    - Returns a new list:
+        - Same length as `my_list`
+        - Each value should be multiplied by `number`
+    - Initial list should not be modified
+    - You are not allowed to import any module
+    - You have to use `map`
+    - Your file should be max 3 lines
+
+```
+guillaume@ubuntu:~/0x04$ ./11-main.py
+[4, 8, 12, 16, 24]
+[1, 2, 3, 4, 6]
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-higher_level_programming`
     - Directory: `0x04-python-more_data_structures`
-    - File: [``](./)
-	- Example file: [`-main.py`](./-main.py)
+    - File: [`11-multiply_list_map.py`](./11-multiply_list_map.py)
+	- Example file: [`11-main.py`](./11-main.py)
 ---
 #### 12
 ###### [Table of Contents](#table-of-contents)
