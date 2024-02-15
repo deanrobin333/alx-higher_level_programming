@@ -308,13 +308,26 @@ Molly: 32
 #### 10
 ###### [Table of Contents](#table-of-contents)
 **10. Best score**
+- Write a function that returns a key with the biggest integer value.
+
+    - Prototype: `def best_score(a_dictionary):`
+    - You can assume that all values are only integers
+    - If no score found, return `None`
+    - You can assume all students have a different score
+    - You are not allowed to import any module
+
+```
+guillaume@ubuntu:~/0x04$ ./10-main.py
+Best score: Molly
+Best score: None
+```
 
 <br></br>
 - Repo
     - GitHub repository: `alx-higher_level_programming`
     - Directory: `0x04-python-more_data_structures`
-    - File: [``](./)
-	- Example file: [`-main.py`](./-main.py)
+    - File: [`10-best_score.py`](./10-best_score.py)
+	- Example file: [`10-main.py`](./10-main.py)
 ---
 #### 11
 ###### [Table of Contents](#table-of-contents)
