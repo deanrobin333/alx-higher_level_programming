@@ -8,7 +8,8 @@
 	- [2. 0x02. Python - import & modules](#2)
 	- [3. 0x03. Python - Data Structures: Lists, Tuples](#3)
 	- [4. 0x04. Python - More Data Structures: Set, Dictionary](#4)
-	- [5. ](#5)
+	- [5. 0x05. Python - Exceptions](#5)
+	- [6. ](#6)
 ---
 ## Author Details
 - *Dean Robin Otsyeno - deanrobin777@gmail.com*
@@ -94,7 +95,20 @@
 ---
 #### 5
 ###### [Table of Contents](#table-of-contents)
-### [5. ]()
+### [5. 0x05. Python - Exceptions](0x05-python-exceptions)
+- Why Python programming is awesome
+- What’s the difference between errors and exceptions
+- What are exceptions and how to use them
+- When do we need to use exceptions
+- How to correctly handle an exception
+- What’s the purpose of catching exceptions
+- How to raise a builtin exception
+- When do we need to implement a clean-up action after an exception
+
+---
+#### 6
+###### [Table of Contents](#table-of-contents)
+### [6. ]()
 
 ---
 
