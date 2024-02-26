@@ -9,7 +9,8 @@
 	- [3. 0x03. Python - Data Structures: Lists, Tuples](#3)
 	- [4. 0x04. Python - More Data Structures: Set, Dictionary](#4)
 	- [5. 0x05. Python - Exceptions](#5)
-	- [6. ](#6)
+	- [6. 0x06. Python - Classes and Objects](#6)
+	- [7. ](#7)
 ---
 ## Author Details
 - *Dean Robin Otsyeno - deanrobin777@gmail.com*
@@ -17,7 +18,7 @@
 ## Projects
 #### 0
 ###### [Table of Contents](#table-of-contents)
-### [0. 0x00. Python - Hello, World](0x00-python-hello_world)
+### [0. 0x00. Python - Hello, World](./0x00-python-hello_world)
 - Why Python programming is awesome
 - Who created Python
 - Who is Guido van Rossum
@@ -32,7 +33,7 @@
 ---
 #### 1
 ###### [Table of Contents](#table-of-contents)
-### [1. 0x01. Python - if/else, loops, functions](0x01-python-if_else_loops_functions)
+### [1. 0x01. Python - if/else, loops, functions](./0x01-python-if_else_loops_functions)
 - Why Python programming is awesome
 - Why indentation is so important in Python
 - How to use the `if`, `if ... else` statements
@@ -63,7 +64,7 @@
 ---
 #### 3
 ###### [Table of Contents](#table-of-contents)
-### [3. 0x03. Python - Data Structures: Lists, Tuples](0x03-python-data_structures)
+### [3. 0x03. Python - Data Structures: Lists, Tuples](./0x03-python-data_structures)
 - Why Python programming is awesome
 - What are lists and how to use them
 - What are the differences and similarities between strings and lists
@@ -80,7 +81,7 @@
 ---
 #### 4
 ###### [Table of Contents](#table-of-contents)
-### [4. 0x04. Python - More Data Structures: Set, Dictionary](0x04-python-more_data_structures)
+### [4. 0x04. Python - More Data Structures: Set, Dictionary](./0x04-python-more_data_structures)
 - Why Python programming is awesome
 - What are sets and how to use them
 - What are the most common methods of set and how to use them
@@ -95,7 +96,7 @@
 ---
 #### 5
 ###### [Table of Contents](#table-of-contents)
-### [5. 0x05. Python - Exceptions](0x05-python-exceptions)
+### [5. 0x05. Python - Exceptions](./0x05-python-exceptions)
 - Why Python programming is awesome
 - What’s the difference between errors and exceptions
 - What are exceptions and how to use them
@@ -108,7 +109,32 @@
 ---
 #### 6
 ###### [Table of Contents](#table-of-contents)
-### [6. ]()
+### [6. 0x06. Python - Classes and Objects](./0x06-python-classes)
+- Why Python programming is awesome
+- What is OOP
+- “first-class everything”
+- What is a class
+- What is an object and an instance
+- What is the difference between a class and an object or instance
+- What is an attribute
+- What are and how to use public, protected and private attributes
+- What is `self`
+- What is a method
+- What is the special `__init__` method and how to use it
+- What is Data Abstraction, Data Encapsulation, and Information Hiding
+- What is a property
+- What is the difference between an attribute and a property in Python
+- What is the Pythonic way to write getters and setters in Python
+- How to dynamically create arbitrary new attributes for existing instances of a class
+- How to bind attributes to object and classes
+- What is the `__dict__` of a class and/or instance of a class and what does it contain
+- How does Python find the attributes of an object or class
+- How to use the `getattr` function
+
+---
+#### 7
+###### [Table of Contents](#table-of-contents)
+### [7. ](./)
 
 ---
 
