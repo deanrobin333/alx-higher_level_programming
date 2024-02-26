@@ -302,7 +302,7 @@ result of print_list: None
 - Repo
     - GitHub repository: `alx-higher_level_programming`
     - Directory: `0x05-python-exceptions`
-    - File: [` 101-safe_function.py`](./ 101-safe_function.py)
+    - File: [`101-safe_function.py`](./101-safe_function.py)
 	- Example file: [`101-main.py`](./101-main.py)
 ---
 #### 9
