@@ -1,5 +1,5 @@
 # Project
-## **p**
+## **0x06. Python - Classes and Objects**
 ---
 ## Table of Contents
 - [Author Details](#author-details)
