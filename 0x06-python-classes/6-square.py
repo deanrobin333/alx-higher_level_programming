@@ -65,8 +65,9 @@ class Square:
         ''' set the position from a tuple of 2 positive integers'''
         if (
                 not isinstance(value, tuple) or
+                not all(isinstance(numb, int) for numb in value) or
                 len(value) != 2 or
-                not all(numb > 0 for numb in value)
+                not all(numb >= 0 for numb in value)
            ):
             raise TypeError("position must be a tuple of 2 positive integers")
 
