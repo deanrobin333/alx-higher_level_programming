@@ -62,3 +62,14 @@ class Square:
         because it depends on the `size` attribute being set.
         '''
         return self.__size * self.__size
+
+    def my_print(self):
+        '''Prints a square using `#`'''
+        if self.size == 0:
+            print()
+        for i in range(self.size):
+            for i in range(self.size):
+                if i == self.size - 1:
+                    print("{}".format('#'))
+                else:
+                    print("{}".format('#'), end="")
