@@ -12,13 +12,13 @@ class Square:
         Args:
             size (int): Size of the new square.
         '''
-        if not isinstance(size, int):
-            raise TypeError("size must be an integer")
-        elif size < 0:
-            raise ValueError("size must be >= 0")
-
-        self.__size = size
-        self.__position = position
+        '''
+        Initialize public attributes,
+        which are set based on private attributes.
+        This setup allows for value checking during initialization once.
+        '''
+        self.size = size  # size is defined by `self.__size`
+        self.position = position  # position is defined by `self.__position`
 
     @property
     def size(self):
@@ -65,12 +65,11 @@ class Square:
         ''' set the position from a tuple of 2 positive integers'''
         if (
                 not isinstance(value, tuple) or
-                not all(isinstance(numb, int) for numb in value) or
                 len(value) != 2 or
+                not all(isinstance(numb, int) for numb in value) or
                 not all(numb >= 0 for numb in value)
-           ):
+            ):
             raise TypeError("position must be a tuple of 2 positive integers")
-
         self.__position = value
 
     def area(self):
