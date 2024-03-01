@@ -10,7 +10,8 @@
 	- [4. 0x04. Python - More Data Structures: Set, Dictionary](#4)
 	- [5. 0x05. Python - Exceptions](#5)
 	- [6. 0x06. Python - Classes and Objects](#6)
-	- [7. ](#7)
+	- [7. 0x07. Python - Test-driven development](#7)
+	- [8. ](#8)
 ---
 ## Author Details
 - *Dean Robin Otsyeno - deanrobin777@gmail.com*
@@ -134,7 +135,19 @@
 ---
 #### 7
 ###### [Table of Contents](#table-of-contents)
-### [7. ](./)
+### [7. 0x07. Python - Test-driven development](./0x07-python-test_driven_development)
+- Why Python programming is awesome
+- What’s an interactive test
+- Why tests are important
+- How to write Docstrings to create tests
+- How to write documentation for each module and function
+- What are the basic option flags to create tests
+- How to find edge cases
+
+---
+#### 8
+###### [Table of Contents](#table-of-contents)
+### [8. ](./)
 
 ---
 
