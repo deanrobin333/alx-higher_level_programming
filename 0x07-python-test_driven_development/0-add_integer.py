@@ -1,9 +1,9 @@
 #!/usr/bin/python3
+'''function that adds integers'''
+
 
 def add_integer(a, b=98):
     '''
-    function that adds integers
-
     Converts floating points to integers first, before addition.
     if a or b is not an integer or a float it raises an exception
     '''
