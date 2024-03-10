@@ -4,6 +4,15 @@
 
 
 def print_square(size):
+    '''
+    prints a square using ``#``
+
+    Args:
+        size (int): The height/width of the square
+    Raises:
+        TypeError: if size is not an integer
+        ValueError: if size is < 0
+    '''
     if (
         not isinstance(size, int) or
         (isinstance(size, float) and size < 0)
