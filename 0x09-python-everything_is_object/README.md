@@ -635,6 +635,10 @@ a is b
 - What does this script print?
 
 ```
+a = ()
+b = ()
+a is b
+```
 
 <br></br>
 - Repo
@@ -646,17 +650,17 @@ a is b
 ###### [Table of Contents](#table-of-contents)
 **27. Still the same?**
 
+``
 >>> id(a)
 139926795932424
 >>> a
 [1, 2, 3, 4]
 >>> a = a + [5]
 >>> id(a)
-
+```
 
 - Will the last line of this script print `139926795932424`? Answer with `Yes` or `No`.
 
-```
 
 <br></br>
 - Repo
@@ -668,17 +672,17 @@ a is b
 ###### [Table of Contents](#table-of-contents)
 **28. Same or not?**
 
+```
 >>> a
 [1, 2, 3]
 >>> id (a)
 139926795932424
 >>> a += [4]
 >>> id(a)
-
+```
 
 - Will the last line of this script print `139926795932424`? Answer with `Yes` or `No`.
 
-```
 
 <br></br>
 - Repo
@@ -697,9 +701,31 @@ a is b
    - Your file should be maximum 4-line long (no documentation needed)
    - You are not allowed to import any module
 
+```
+guillaume@ubuntu:~/0x09$ cat 100-main.py
+#!/usr/bin/python3
+magic_string = __import__('100-magic_string').magic_string
 
+for i in range(10):
+    print(magic_string())
+
+guillaume@ubuntu:~/0x09$ ./100-main.py | cat -e
+BestSchool$
+BestSchool, BestSchool$
+BestSchool, BestSchool, BestSchool$
+BestSchool, BestSchool, BestSchool, BestSchool$
+BestSchool, BestSchool, BestSchool, BestSchool, BestSchool$
+BestSchool, BestSchool, BestSchool, BestSchool, BestSchool, BestSchool$
+BestSchool, BestSchool, BestSchool, BestSchool, BestSchool, BestSchool, BestSchool$
+BestSchool, BestSchool, BestSchool, BestSchool, BestSchool, BestSchool, BestSchool, BestSchool$
+BestSchool, BestSchool, BestSchool, BestSchool, BestSchool, BestSchool, BestSchool, BestSchool, BestSchool$
+BestSchool, BestSchool, BestSchool, BestSchool, BestSchool, BestSchool, BestSchool, BestSchool, BestSchool, BestSchool$
+guillaume@ubuntu:~/0x09$ wc -l 100-magic_string.py 
+4 100-magic_string.py
+guillaume@ubuntu:~/0x09$ 
 ```
 
+**No test cases needed**
 <br></br>
 - Repo
     - GitHub repository: `alx-higher_level_programming`
@@ -717,6 +743,21 @@ a is b
 
 
 ```
+guillaume@ubuntu:~/0x09$ cat 101-main.py
+#!/usr/bin/python3
+LockedClass = __import__('101-locked_class').LockedClass
+
+lc = LockedClass()
+lc.first_name = "John"
+try:
+    lc.last_name = "Snow"
+except Exception as e:
+    print("[{}] {}".format(e.__class__.__name__, e))
+
+guillaume@ubuntu:~/0x09$ ./101-main.py
+[AttributeError] 'LockedClass' object has no attribute 'last_name'
+guillaume@ubuntu:~/0x09$ 
+```
 
 <br></br>
 - Repo
@@ -728,10 +769,12 @@ a is b
 ###### [Table of Contents](#table-of-contents)
 **31. int 1/3**
 
+```
 julien@ubuntu:/python3$ cat int.py
 a = 1
 b = 1
 julien@ubuntu:/python3$
+```
 
 
 - Assuming we are using a CPython implementation of Python3 with default options/configuration:
@@ -740,8 +783,6 @@ julien@ubuntu:/python3$
    - How many int objects are created by the execution of the first line of the script? (`103-line1.txt`)
    - How many int objects are created by the execution of the second line of the script (`103-line2.txt`)
 
-
-```
 
 <br></br>
 - Repo
@@ -754,6 +795,7 @@ julien@ubuntu:/python3$
 ###### [Table of Contents](#table-of-contents)
 **32. int 2/3**
 
+```
 julien@ubuntu:/python3$ cat int.py
 a = 1024
 b = 1024
@@ -761,7 +803,7 @@ del a
 del b
 c = 1024
 julien@ubuntu:/python3$
-
+```
 
 - Assuming we are using a CPython implementation of Python3 with default options/configuration:
 
@@ -773,7 +815,6 @@ julien@ubuntu:/python3$
    - How many int objects are created by the execution of the last line of the script (`104-line5.txt`)
 
 
-```
 
 <br></br>
 - Repo
@@ -789,12 +830,13 @@ julien@ubuntu:/python3$
 ###### [Table of Contents](#table-of-contents)
 **33. int 3/3**
 
+```
 julien@twix:/tmp/so$ cat int.py
 print("I")
 print("Love")
 print("Python")
 julien@ubuntu:/tmp/so$
-
+```
 
 - Assuming we are using a CPython implementation of Python3 with default options/configuration:
 
@@ -805,9 +847,6 @@ julien@ubuntu:/tmp/so$
 
 - Hint: `NSMALLPOSINTS`, `NSMALLNEGINTS`
 
-- 
-
-```
 
 <br></br>
 - Repo
@@ -819,6 +858,7 @@ julien@ubuntu:/tmp/so$
 ###### [Table of Contents](#table-of-contents)
 **34. Clear strings**
 
+```
 guillaume@ubuntu:/python3$ cat string.py
 a = "SCHL"
 b = "SCHL"
@@ -826,6 +866,7 @@ del a
 del b
 c = "SCHL"
 guillaume@ubuntu:/python3$
+```
 
 
 - Assuming we are using a CPython implementation of Python3 with default options/configuration (For answers with numbers use integers, don’t spell out the word):
@@ -837,8 +878,6 @@ guillaume@ubuntu:/python3$
    - After the execution of line 4, is the string object pointed by `b` deleted? Answer with `Yes` or `No` (`106-line4.txt`)
    - How many string objects are created by the execution of the last line of the script (`106-line5.txt`)
 
-
-```
 
 <br></br>
 - Repo
