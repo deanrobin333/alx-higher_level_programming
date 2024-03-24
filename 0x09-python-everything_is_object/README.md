@@ -650,7 +650,7 @@ a is b
 ###### [Table of Contents](#table-of-contents)
 **27. Still the same?**
 
-``
+```
 >>> id(a)
 139926795932424
 >>> a
