@@ -12,7 +12,8 @@
 	- [6. 0x06. Python - Classes and Objects](#6)
 	- [7. 0x07. Python - Test-driven development](#7)
 	- [8. 0x08. Python - More Classes and Objects](#8)
-	- [9. ](#9)
+	- [9. 0x09. Python - Everything is object](#9)
+	- [10. ](#10)
 ---
 ## Author Details
 - *Dean Robin Otsyeno - deanrobin777@gmail.com*
@@ -179,7 +180,26 @@
 ---
 #### 9
 ###### [Table of Contents](#table-of-contents)
-### [9. ](./)
+### [9. 0x09. Python - Everything is object](./0x09-python-everything_is_object)
+- Why Python programming is awesome
+- What is an object
+- What is the difference between a class and an object or instance
+- What is the difference between immutable object and mutable object
+- What is a reference
+- What is an assignment
+- What is an alias
+- How to know if two variables are identical
+- How to know if two variables are linked to the same object
+- How to display the variable identifier (which is the memory address in the CPython implementation)
+- What is mutable and immutable
+- What are the built-in mutable types
+- What are the built-in immutable types
+- How does Python pass variables to functions
+
+---
+#### 10
+###### [Table of Contents](#table-of-contents)
+### [10. ](./)
 
 ---
 
