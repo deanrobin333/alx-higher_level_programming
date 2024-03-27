@@ -1,0 +1,16 @@
+# 1-my_list.txt
+
+==========================
+doctest for 1-my_list.py
+==========================
+
+Importing the MyList class which inherits from List and then testing the 
+``print_sorted(self)`` function in Mylist class that prints a sorted list of integers
+
+Importing class dynamically
+    >>> MyList = __import__('1-my_list').MyList
+
+Testing correct output of function
+    >>> my_list = MyList([1, 9, 6, 7])
+    >>> my_list.print_sorted()
+    [1, 6, 7, 9]
