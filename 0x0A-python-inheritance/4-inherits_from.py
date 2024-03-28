@@ -11,7 +11,7 @@ def inherits_from(obj, a_class):
         obj (a_class): object to check type
         a_class (type): type of type to check
 
-    Return:
+    Returns:
         boolean: True or False
     '''
 
