@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# 8-rectangle.py
+# 9-rectangle.py
 '''Defines a class ``Rectangle`` that inherits from ``7-base_geometry.py``
 
 Attributes:
@@ -39,4 +39,4 @@ class Rectangle(BaseGeometry):
         Returns:
             str: [Rectangle] <width>/<height>
         '''
-        return f"[Rectangle] {self.__width}/{self.__height}"
+        return f"[Rectangle] {self.__width:d}/{self.__height}:d"
