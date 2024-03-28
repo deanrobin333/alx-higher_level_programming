@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-'''Defines a class ``MyInt`` that inherits fron ``int``'''
+'''Defines a class ``MyInt`` that inherits fron ``int``
+MyInt is a rebel. MyInt has == and != operators inverted
+'''
 
 
 class MyInt(int):
