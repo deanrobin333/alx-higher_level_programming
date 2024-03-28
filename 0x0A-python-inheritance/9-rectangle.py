@@ -39,4 +39,4 @@ class Rectangle(BaseGeometry):
         Returns:
             str: [Rectangle] <width>/<height>
         '''
-        return f"[Rectangle] {self.__width:d}/{self.__height}:d"
+        return f"[Rectangle] {self.__width:d}/{self.__height:d}"
