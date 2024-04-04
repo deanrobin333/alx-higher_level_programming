@@ -14,5 +14,5 @@ def to_json_string(my_obj):
     Returns:
         (str) : JSON representation of an object
     '''
-
+    # serializing json
     return json.dumps(my_obj)
