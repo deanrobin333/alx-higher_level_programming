@@ -26,7 +26,7 @@ class Student:
         this list must be retrieved.
         Otherwise, all attributes must be retrieved.
         '''
-        if not attrs:
+        if attrs is None:
             return vars(self)  # same as 'self.__dict__'
 
         new_dict = {}
