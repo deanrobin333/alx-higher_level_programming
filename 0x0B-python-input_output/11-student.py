@@ -51,3 +51,8 @@ class Student:
                 self.__dict__[key] = json[key]
         except Exception:
             pass
+
+        '''WE CAN REPLACE THE WHOLE TRY EXCEPT BLOCK BY USING THE
+        `update` method` ie
+        -- `self.__dict__.update(json)`
+        '''
