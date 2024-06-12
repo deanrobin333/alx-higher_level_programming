@@ -15,7 +15,8 @@
 	- [9. 0x09. Python - Everything is object](#9)
 	- [10. 0x0A. Python - Inheritance](#10)
 	- [11. 0x0B. Python - Input/Output](#11)
-	- [12. ](#12)
+	- [12. 0x0C. Python - Almost a circle](#12)
+	- [13. ](#13)
 ---
 ## Author Details
 - *Dean Robin Otsyeno - deanrobin777@gmail.com*
@@ -236,7 +237,31 @@
 ---
 #### 12
 ###### [Table of Contents](#table-of-contents)
-### [12. ](./)
+### [12. 0x0C. Python - Almost a circle](./0x0C-python-almost_a_circle)
+- What is Unit testing and how to implement it in a large project
+- How to serialize and deserialize a Class
+- How to write and read a JSON file
+- What is `*args` and how to use it
+- What is `**kwargs` and how to use it
+- How to handle named arguments in a function
+<br></br>
+**The AirBnB project is a big part of the Higher level curriculum. This project will help you be ready for it.**
+- In this project, you will review everything about Python:
+    - Import
+    - Exceptions
+    - Class
+    - Private attribute
+    - Getter/Setter
+    - Class method
+    - Static method
+    - Inheritance
+    - Unittest
+    - Read/Write file
+
+---
+#### 13
+###### [Table of Contents](#table-of-contents)
+### [13. ](./)
 
 ---
 
