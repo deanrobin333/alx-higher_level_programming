@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 # 12-pascal_triangle.py
+"""Module containing the function pascal_triangle"""
+
 
 def pascal_triangle(n):
     '''Function that returns a list of list of integers representing the
