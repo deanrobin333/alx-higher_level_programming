@@ -9,8 +9,8 @@ def append_after(filename="", search_string="", new_string=""):
 
     Arg:
         filename (str): name of file
-        search_string (str): string in file to insert text after
-        new_string (str): string to insert after
+        search_string (str, optional): string to search. Defaults to ""
+        new_string (str, optional): string to insert after. Defaults to "".
     '''
     with open(filename, mode='r') as f:
         lines = f.readlines()
