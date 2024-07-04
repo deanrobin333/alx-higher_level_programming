@@ -138,8 +138,7 @@ class Rectangle(Base):
 
     def display(self):
         '''prints in stdout Rectangle instance with the character #'''
-        if self.y > 0:
-            print('\n' * self.y)
+        [print('\n', end='') for _ in range(self.y)]
         [print(' ' * self.x + '#' * self.width) for _ in range(self.height)]
 
     def __str__(self):
