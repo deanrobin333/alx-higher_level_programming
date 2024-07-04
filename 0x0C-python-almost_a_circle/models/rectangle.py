@@ -140,3 +140,12 @@ class Rectangle(Base):
         '''prints in stdout Rectangle instance with the character #'''
         [print('#', end='\n' if y == self.width - 1 else '')
             for x in range(self.height) for y in range(self.width)]
+
+    def __str__(self):
+        '''overriding print so that it returns:
+        "[Rectangle] (<id>) <x>/<y> - <width>/<height>"
+        '''
+        return (
+                f"[Rectangle] ({self.id}) {self.x}/{self.y} - "
+                f"{self.width}/{self.height}"
+            )
