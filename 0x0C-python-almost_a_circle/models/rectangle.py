@@ -135,3 +135,8 @@ class Rectangle(Base):
             (int) : area of rectangle
         '''
         return self.__width * self.__height
+
+    def display(self):
+        '''prints in stdout Rectangle instance with the character #'''
+        [print('#', end='\n' if y == self.width - 1 else '')
+            for x in range(self.height) for y in range(self.width)]
