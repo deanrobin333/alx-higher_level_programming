@@ -138,8 +138,7 @@ class Rectangle(Base):
 
     def display(self):
         '''prints in stdout Rectangle instance with the character #'''
-        [print('#', end='\n' if y == self.width - 1 else '')
-            for x in range(self.height) for y in range(self.width)]
+        [print('#' * self.width) for _ in range(self.height)]
 
     def __str__(self):
         '''overriding print so that it returns:
