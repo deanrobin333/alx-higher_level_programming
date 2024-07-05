@@ -158,6 +158,6 @@ class Rectangle(Base):
         '''
         attr = ['id', 'width', 'height', 'x', 'y']
 
-        if attr is not None:
+        if args is not None:
             for i in range(len(args)):
                 setattr(self, attr[i], args[i])
