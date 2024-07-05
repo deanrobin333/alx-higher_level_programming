@@ -1,10 +1,6 @@
 #!/usr/bin/python3
 # square.py
 
-'''Class square that inherits from Rectangle
-def __init__(self, width, height, x=0, y=0, id=None):
-'''
-
 from models.rectangle import Rectangle
 
 
