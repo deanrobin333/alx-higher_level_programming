@@ -150,14 +150,18 @@ class Rectangle(Base):
                 f"{self.width}/{self.height}"
             )
 
-    def update(self, *args):
+    def update(self, *args, **kwargs):
         '''assigns an argument to each attribute
 
         Args:
             *args (tuple): tuple of arguments
+            **kwargs (dict): dictionary with key as instance attribute
         '''
         attr = ['id', 'width', 'height', 'x', 'y']
 
-        if args is not None:
+        if args is not None and len(args) > 0:
             for i in range(len(args)):
                 setattr(self, attr[i], args[i])
+        else:
+            for key, value in kwargs.items():
+                setattr(self, key, value)
