@@ -149,3 +149,10 @@ class Rectangle(Base):
                 f"[Rectangle] ({self.id}) {self.x}/{self.y} - "
                 f"{self.width}/{self.height}"
             )
+
+    def update(self, *args):
+        attr = ['id', 'width', 'height', 'x', 'y']
+
+        if attr is not None:
+            for i in range(len(args)):
+                setattr(self, attr[i], args[i])
