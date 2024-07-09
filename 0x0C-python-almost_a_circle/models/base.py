@@ -103,8 +103,10 @@ class Base:
         Returns:
             list: an instance with all attributes already set.
         """
-
-        dummy = cls(1, 1)
+        if cls.__name__ == "Rectangle":
+            dummy = cls(1, 1)
+        else:
+            dummy = cls(1)
 
         dummy.update(**dictionary)
 
