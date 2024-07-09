@@ -64,3 +64,21 @@ class Base:
         with open(file_name, 'w') as f:
             '''Serialize the dictionary to json string, then write to file'''
             f.write(cls.to_json_string(dic_list))
+
+    def from_json_string(json_string):
+        '''returns the list of the JSON string representation json_string
+
+        Args:
+            json_string (str): json string
+
+        Returns:
+            (list): json string representation
+        '''
+        list_str = []
+
+        if json_string is None or len(json_string) == 0:
+            return list_str
+        else:
+            list_str.append(json.loads(json_string))
+
+        return list_str
