@@ -80,4 +80,3 @@ class Base:
             return list_str
         else:
             return json.loads(json_string)
-
