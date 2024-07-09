@@ -64,7 +64,7 @@ class Base:
         with open(file_name, 'w') as f:
             '''Serialize the dictionary to json string, then write to file'''
             f.write(cls.to_json_string(dic_list))
-    
+
     @staticmethod
     def from_json_string(json_string):
         '''returns the list of the JSON string representation json_string
@@ -81,3 +81,31 @@ class Base:
             return list_str
         else:
             return json.loads(json_string)
+
+    @classmethod
+    def create(cls, **dictionary):
+        """Returns an instance with all attributes already set.
+
+        Args:
+            dictionary (dict): double pointer to a dictionary.
+            cls (any): class.
+
+        To use the update method to assign all attributes, you must,
+        create a “dummy” instance before:
+        Create a Rectangle or Square instance with “dummy” mandatory,
+        attributes (width, height, size, etc.),
+        Call update instance method to this “dummy” instance to apply your,
+        real values.
+        You must use the method def update(self, *args, **kwargs).
+        **dictionary must be used as **kwargs of the method update.
+        You are not allowed to use eval.
+
+        Returns:
+            list: an instance with all attributes already set.
+        """
+
+        dummy = cls(1, 1)
+
+        dummy.update(**dictionary)
+
+        return dummy
