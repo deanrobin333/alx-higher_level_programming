@@ -22,7 +22,7 @@ class Base:
         if id is not None:
             self.id = id
         else:
-            type(self).__nb_objects += 1
+            Base.__nb_objects += 1
             self.id = type(self).__nb_objects
 
     @staticmethod
@@ -35,6 +35,6 @@ class Base:
         Returns:
             (str): json dictionary representation
         '''
-        if list_dictionaries is None or list_dictionaries == "[]":
+        if list_dictionaries is None or len(list_dictionaries) == 0:
             return "[]"
         return json.dumps(list_dictionaries)
