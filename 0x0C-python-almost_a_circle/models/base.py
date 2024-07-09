@@ -79,6 +79,5 @@ class Base:
         if json_string is None or len(json_string) == 0:
             return list_str
         else:
-            list_str.append(json.loads(json_string))
+            return json.loads(json_string)
 
-        return list_str
