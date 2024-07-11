@@ -3,6 +3,7 @@
 
 '''Defines a class Base'''
 import json
+import os
 
 
 class Base:
@@ -111,3 +112,35 @@ class Base:
         dummy.update(**dictionary)
 
         return dummy
+
+    @classmethod
+    def load_from_file(cls):
+        """Returns a list of instances.
+
+        - If the file doesn’t exist, return an empty list.
+        - Otherwise, return a list of instances - the type of these instances,
+            depends on cls (current class using this method).
+        - You must use the from_json_string and create methods.
+
+        Args:
+            cls (any): class.
+
+        Returns:
+            list: list of instances.
+        """
+        file_name = f"{cls.__name__}.json"
+
+        if not os.path.exists(file_name):
+            return []
+
+        with open(file_name, 'r') as f:
+            lst_str = f.read()
+
+        lst_cls = cls.from_json_string(lst_str)
+
+        lst_inst = []
+
+        for i in range(len(lst_cls)):
+            lst_inst.append(cls.create(**lst_cls[i]))
+
+        return lst_inst
