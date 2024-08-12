@@ -17,8 +17,10 @@
 	- [11. 0x0B. Python - Input/Output](#11)
 	- [12. 0x0C. Python - Almost a circle](#12)
 	- [13. 0x00. AirBnB clone - The console](#13)
-	- [14. ](#14)
-	- [15. ](#15)
+	- [14. 0x0D. SQL - Introduction](#14)
+	- [15. 0x0E. SQL - More queries](#15)
+	- [16. ](#16)
+	- [17. ](#17)
 ---
 ## Author Details
 - *Dean Robin Otsyeno - deanrobin777@gmail.com*
@@ -304,10 +306,39 @@
 ---
 #### 14
 ###### [Table of Contents](#table-of-contents)
-### [14. ](./)
+### [14. 0x0D. SQL - Introduction](./0x0D-SQL_introduction)
+- What’s a database
+- What’s a relational database
+- What does SQL stand for
+- What’s MySQL
+- How to create a database in MySQL
+- What does `DDL` and `DML` stand for
+- How to `CREATE` or `ALTER` a table
+- How to `SELECT` data from a table
+- How to `INSERT`, `UPDATE` or `DELETE` data
+- What are `subqueries`
+- How to use MySQL functions
 
 ---
 #### 15
+###### [Table of Contents](#table-of-contents)
+### [15. 0x0E. SQL - More queries](./0x0E-SQL_more_queries)
+- How to create a new MySQL user
+- How to manage privileges for a user to a database or table
+- What’s a `PRIMARY KEY`
+- What’s a `FOREIGN KEY`
+- How to use `NOT NULL` and `UNIQUE` constraints
+- How to retrieve datas from multiple tables in one request
+- What are subqueries
+- What are `JOIN` and `UNION`
+
+---
+#### 16
+###### [Table of Contents](#table-of-contents)
+### [15. ](./)
+
+---
+#### 17
 ###### [Table of Contents](#table-of-contents)
 ### [15. ](./)
 
