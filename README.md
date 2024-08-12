@@ -20,7 +20,7 @@
 	- [14. 0x0D. SQL - Introduction](#14)
 	- [15. 0x0E. SQL - More queries](#15)
 	- [16. 0x01. AirBnB clone - Web static](#16)
-	- [17. ](#17)
+	- [17. 0x12. JavaScript - Warm up](#17)
 	- [18. ](#18)
 	- [19. ](#19)
 	- [20. ](#20)
@@ -372,7 +372,23 @@
 ---
 #### 17
 ###### [Table of Contents](#table-of-contents)
-### [17. ](./)
+### [17. 0x12. JavaScript - Warm up](./0x12-javascript-warm_up)
+- Why JavaScript programming is amazing
+- How to run a JavaScript script
+- How to create variables and constants
+- What are differences between `var`, `const` and `let`
+- What are all the data types available in JavaScript
+- How to use the `if`, `if ... else` statements
+- How to use comments
+- How to affect values to variables
+- How to use `while` and `for` loops
+- How to use `break` and `continue` statements
+- What is a function and how do you use functions
+- What does a function that does not use any `return` statement return
+- Scope of variables
+- What are the arithmetic operators and how to use them
+- How to manipulate dictionary
+- How to import a file
 
 ---
 #### 18
