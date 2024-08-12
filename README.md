@@ -27,8 +27,13 @@
 	- [21. 0x10. Python - Network #0](#21)
 	- [22. 0x11. Python - Network #1](#22)
 	- [23. 0x03. AirBnB clone - Deploy static](#23)
-	- [24. ](#24)
-	- [25. ](#25)
+	- [24. 0x14. JavaScript - Web scraping](#24)
+	- [25. 0x05. AirBnB clone - RESTful API](#25)
+	**Beging Portfolio project**
+	- [26. 0x15. JavaScript - Web jQuery](#26)
+	- [27. 0x06. AirBnB clone - Web dynamic](#27)
+	- [28. ](#28)
+
 ---
 ## Author Details
 - *Dean Robin Otsyeno - deanrobin777@gmail.com*
@@ -484,14 +489,63 @@
 ---
 #### 24
 ###### [Table of Contents](#table-of-contents)
-### [24. ](./)
+### [24. 0x14. JavaScript - Web scraping](./0x14-javascript-web_scraping)
+- Why JavaScript programming is amazing
+- How to manipulate JSON data
+- How to use `request` and fetch API
+- How to read and write a file using `fs` module
 
 ---
 #### 25
 ###### [Table of Contents](#table-of-contents)
-### [25. ](./)
+### [25. 0x05. AirBnB clone - RESTful API](../../../AirBnB_clone_v3)
+- What REST means
+- What API means
+- What CORS means
+- What is an API
+- What is a REST API
+- What are other type of APIs
+- Which is the HTTP method to retrieve resource(s)
+- Which is the HTTP method to create a resource
+- Which is the HTTP method to update resource
+- Which is the HTTP method to delete resource
+- How to request REST API
 
 ---
+#### 26
+###### [Table of Contents](#table-of-contents)
+### [26. 0x15. JavaScript - Web jQuery](./0x15-javascript-web_jquery)
+- Why JQuery make front-end programming so easy (don’t forget to tweet today, with the hashtag #ilovejquery :))
+- How to select HTML elements in JavaScript
+- How to select HTML elements with JQuery
+- What are differences between `ID`, `class` and `tag name` selectors
+- How to modify an HTML element style
+- How to get and update an HTML element content
+- How to modify the DOM
+- How to make a `GET` request with JQuery Ajax
+- How to make a `POST` request with JQuery Ajax
+- How to listen/bind to DOM events
+
+---
+#### 27
+###### [Table of Contents](#table-of-contents)
+### [27. 0x06. AirBnB clone - Web dynamic](../../../AirBnB_clone_v4)
+- How cool it is to request your own API
+- How to modify an HTML element style
+- How to get and update an HTML element content
+- How to modify the DOM
+- How to make a `GET` request with JQuery Ajax
+- How to make a `POST` request with JQuery Ajax
+- How to listen/bind to DOM events
+- How to listen/bind to user events
+
+---
+#### 28
+###### [Table of Contents](#table-of-contents)
+### [28. ](./)
+
+---
+
 
 
 <br></br>
