@@ -26,7 +26,7 @@
 	- [20. 0x02. AirBnB clone - MySQL](#20)
 	- [21. 0x10. Python - Network #0](#21)
 	- [22. 0x11. Python - Network #1](#22)
-	- [23. ](#23)
+	- [23. 0x03. AirBnB clone - Deploy static](#23)
 	- [24. ](#24)
 	- [25. ](#25)
 ---
@@ -471,7 +471,15 @@
 ---
 #### 23
 ###### [Table of Contents](#table-of-contents)
-### [23. ](./)
+### [23. 0x03. AirBnB clone - Deploy static](../../../AirBnB_clone_v2)
+- What is Fabric
+- How to deploy code to a server easily
+- What is a `tgz` archive
+- How to execute Fabric command locally
+- How to execute Fabric command remotely
+- How to transfer files with Fabric
+- How to manage Nginx configuration
+- What is the difference between `root` and `alias` in a Nginx configuration
 
 ---
 #### 24
