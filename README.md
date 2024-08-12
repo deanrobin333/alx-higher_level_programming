@@ -29,7 +29,7 @@
 	- [23. 0x03. AirBnB clone - Deploy static](#23)
 	- [24. 0x14. JavaScript - Web scraping](#24)
 	- [25. 0x05. AirBnB clone - RESTful API](#25)
-	- **Beging Portfolio project**
+	- **Beginning Portfolio project**
 	- [26. 0x15. JavaScript - Web jQuery](#26)
 	- [27. 0x06. AirBnB clone - Web dynamic](#27)
 	- [28. ](#28)
