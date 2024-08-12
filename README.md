@@ -21,7 +21,7 @@
 	- [15. 0x0E. SQL - More queries](#15)
 	- [16. 0x01. AirBnB clone - Web static](#16)
 	- [17. 0x12. JavaScript - Warm up](#17)
-	- [18. ](#18)
+	- [18. 0x13. JavaScript - Objects, Scopes and Closures](#18)
 	- [19. ](#19)
 	- [20. ](#20)
 	- [21. ](#21)
@@ -393,7 +393,15 @@
 ---
 #### 18
 ###### [Table of Contents](#table-of-contents)
-### [18. ](./)
+### [18. 0x13. JavaScript - Objects, Scopes and Closures](./0x13-javascript_objects_scopes_closures)
+- Why JavaScript programming is amazing
+- How to create an object in JavaScript
+- What `this` means
+- What `undefined` means
+- Why the variable type and scope is important
+- What is a closure
+- What is a prototype
+- How to inherit an object from another
 
 ---
 #### 19
@@ -404,6 +412,11 @@
 #### 20
 ###### [Table of Contents](#table-of-contents)
 ### [20. ](./)
+
+---
+#### 21
+###### [Table of Contents](#table-of-contents)
+### [21. ](./)
 
 ---
 
