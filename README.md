@@ -22,9 +22,11 @@
 	- [16. 0x01. AirBnB clone - Web static](#16)
 	- [17. 0x12. JavaScript - Warm up](#17)
 	- [18. 0x13. JavaScript - Objects, Scopes and Closures](#18)
-	- [19. ](#19)
+	- [19. 0x0F. Python - Object-relational mapping](#19)
 	- [20. ](#20)
 	- [21. ](#21)
+	- [22. ](#22)
+	- [23. ](#23)
 ---
 ## Author Details
 - *Dean Robin Otsyeno - deanrobin777@gmail.com*
@@ -406,7 +408,14 @@
 ---
 #### 19
 ###### [Table of Contents](#table-of-contents)
-### [19. ](./)
+### [19. 0x0F. Python - Object-relational mapping](./0x0F-python-object_relational_mapping)
+- Why Python programming is awesome
+- How to connect to a MySQL database from a Python script
+- How to `SELECT` rows in a MySQL table from a Python script
+- How to `INSERT` rows in a MySQL table from a Python script
+- What ORM means
+- How to map a Python Class to a MySQL table
+- How to create a Python Virtual Environment
 
 ---
 #### 20
@@ -417,6 +426,16 @@
 #### 21
 ###### [Table of Contents](#table-of-contents)
 ### [21. ](./)
+
+---
+#### 22
+###### [Table of Contents](#table-of-contents)
+### [22. ](./)
+
+---
+#### 23
+###### [Table of Contents](#table-of-contents)
+### [23. ](./)
 
 ---
 
