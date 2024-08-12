@@ -23,7 +23,7 @@
 	- [17. 0x12. JavaScript - Warm up](#17)
 	- [18. 0x13. JavaScript - Objects, Scopes and Closures](#18)
 	- [19. 0x0F. Python - Object-relational mapping](#19)
-	- [20. ](#20)
+	- [20. 0x02. AirBnB clone - MySQL](#20)
 	- [21. ](#21)
 	- [22. ](#22)
 	- [23. ](#23)
@@ -420,7 +420,17 @@
 ---
 #### 20
 ###### [Table of Contents](#table-of-contents)
-### [20. ](./)
+### [20. 0x02. AirBnB clone - MySQL](../../../AirBnB_clone_v2)
+- What is Unit testing and how to implement it in a large project
+- What is `*args` and how to use it
+- What is `**kwargs` and how to use it
+- How to handle named arguments in a function
+- How to create a MySQL database
+- How to create a MySQL user and grant it privileges
+- What ORM means
+- How to map a Python Class to a MySQL table
+- How to handle 2 different storage engines with the same codebase
+- How to use environment variables
 
 ---
 #### 21
